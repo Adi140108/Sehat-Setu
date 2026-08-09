@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if request is from authenticated user
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check user role
+    function hasRole(role) {
+      return isAuthenticated() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == role;
+    }
+    
+    // User profile rule: Citizens can only read and write their own profile
+    match /users/{userId} {
+      allow read, write: if isAuthenticated() && request.auth.uid == userId;
+      allow read, write: if hasRole('admin');
+    }
+    
+    // Household Profiles: Strict privacy, owner only
+    match /profiles/{userId} {
+      allow read, write: if isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Facilities: Public read access for all citizens, write access restricted to admins
+    match /facilities/{facilityId} {
+      allow read: if true;
+      allow write: if hasRole('admin');
+    }
+    
+    // Health Schemes: Public read access, admin write access
+    match /schemes/{schemeId} {
+      allow read: if true;
+      allow write: if hasRole('admin');
+    }
+    
+    // Support Requests: Citizens create/read own; Volunteers & Admins read/update all
+    match /supportRequests/{requestId} {
+      allow create: if true;
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || hasRole('volunteer') || hasRole('admin'));
+      allow update: if hasRole('volunteer') || hasRole('admin');
+    }
+    
+    // Referrals & Follow-ups: User specific access
+    match /referrals/{referralId} {
+      allow create, read, update: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow read: if hasRole('admin');
+    }
+    
+    // Reminders: Strict user owner access
+    match /reminders/{reminderId} {
+      allow read, write: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+    
+    // Analytics: Aggregated read for Admins only
+    match /analytics/{docId} {
+      allow read: if hasRole('admin');
+      allow write: if hasRole('admin');
+    }
+  }
+}
