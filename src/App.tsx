@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AuthProvider } from './contexts/AuthContext';
-import { LanguageProvider } from './contexts/LanguageContext';
+import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Header } from './components/common/Header';
 import { DemoBanner } from './components/common/DemoBanner';
@@ -12,10 +12,18 @@ import { WhatsAppDemoView } from './components/whatsapp/WhatsAppDemoView';
 export function AppContent() {
   const [currentTab, setCurrentTab] = useState<'citizen' | 'admin' | 'volunteer' | 'whatsapp'>('citizen');
   const [demoScenario, setDemoScenario] = useState<'HINDI_VOICE' | 'EMERGENCY' | 'SCHEME_CHECK' | 'HUMAN_SUPPORT' | undefined>(undefined);
+  const { setLanguage } = useLanguage();
 
   const handleRunDemoScenario = (scenario: 'HINDI_VOICE' | 'EMERGENCY' | 'SCHEME_CHECK' | 'HUMAN_SUPPORT') => {
     setDemoScenario(scenario);
     setCurrentTab('citizen');
+    
+    // Programmatically align application language to match target scenario
+    if (scenario === 'HINDI_VOICE') {
+      setLanguage('hi');
+    } else {
+      setLanguage('en');
+    }
   };
 
   return (

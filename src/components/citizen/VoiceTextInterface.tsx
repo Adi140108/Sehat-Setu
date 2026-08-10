@@ -68,6 +68,14 @@ const AI_RESPONSES: Record<string, Record<LanguageCode, string>> = {
     ta: "❓ கேள்வி புரியவில்லை: மருத்துவமனை கண்டறிய அல்லது ஆஷா பணியாளரைத் தொடர்பு கொள்ள உதவ முடியும். கீழே உள்ள மெனுவை பயன்படுத்தவும்.",
     te: "❓ మీ ప్రశ్న అర్థం కాలేదు: ఆసుపత్రులు వెతకడానికి లేదా ఆశా వర్కర్ సహాయం పొందడానికి సహాయం చేయగలను. కింద ఉన్న ఆప్షన్లను ఎంచుకోండి.",
     mr: "❓ प्रश्न स्पष्ट झाला नाही: मी रुग्णालय शोधणे किंवा आशा स्वयंसेविकेशी संपर्क साधण्यात मदत करू शकतो. खालील पर्याय निवडा."
+  },
+  GENERAL_HEALTHCARE_NAVIGATION: {
+    en: "🚫 I cannot diagnose diseases or prescribe medicines. But I can help you find a nearby government hospital, check your eligibility for free health schemes like Ayushman Bharat, or connect you with an ASHA health worker.",
+    hi: "🚫 मैं बीमारियों का निदान या दवाइयाँ नहीं बता सकता। लेकिन मैं आपको नजदीकी सरकारी अस्पताल ढूंढने, आयुष्मान भारत जैसी मुफ्त स्वास्थ्य योजनाओं की पात्रता जांचने, या आशा कार्यकर्ता से जोड़ने में मदद कर सकता हूं।",
+    kn: "🚫 ನಾನು ರೋಗ ನಿರ್ಣಯ ಅಥವಾ ಔಷಧಿ ಸಲಹೆ ನೀಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಆದರೆ ಹತ್ತಿರದ ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ ಹುಡುಕಲು, ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಯೋಜನೆಯ ಅರ್ಹತೆ ಪರಿಶೀಲಿಸಲು ಅಥವಾ ಆಶಾ ಕಾರ್ಯಕರ್ತರನ್ನು ಸಂಪರ್ಕಿಸಲು ಸಹಾಯ ಮಾಡಬಲ್ಲೆ.",
+    ta: "🚫 நான் நோய் கண்டறிதல் அல்லது மருந்து பரிந்துரை செய்ய இயலாது. ஆனால் அருகிலுள்ள அரசு மருத்துவமனை கண்டறிய, ஆயுஷ்மான் பாரத் தகுதியை சரிபார்க்க அல்லது ஆஷா பணியாளரை தொடர்பு கொள்ள உதவ முடியும்.",
+    te: "🚫 నేను వ్యాధి నిర్ధారణ లేదా మందుల సలహా ఇవ్వలేను. కానీ సమీప ప్రభుత్వ ఆసుపత్రిని కనుగొనడానికి, ఆయుష్మాన్ భారత్ అర్హతను తనిఖీ చేయడానికి లేదా ఆశా వర్కర్‌ను సంప్రదించడానికి సహాయం చేయగలను.",
+    mr: "🚫 मी रोगनिदान किंवा औषध सल्ला देऊ शकत नाही. पण जवळचे सरकारी रुग्णालय शोधणे, आयुष्मान भारत पात्रता तपासणे किंवा आशा स्वयंसेविकेशी संपर्क साधण्यात मदत करू शकतो."
   }
 };
 
@@ -99,13 +107,13 @@ export const VoiceTextInterface: React.FC<VoiceTextInterfaceProps> = ({ initialQ
     const intentResult = classifyIntent(textToProcess, language);
     setActiveIntent(intentResult);
 
-    // Get premium natural language response text
+    // Get premium natural language response text — always prefer localized map
     const category = intentResult.category;
     let feedback = "";
-    if (intentResult.directResponseKey) {
-      feedback = intentResult.directResponseKey;
-    } else if (AI_RESPONSES[category]) {
+    if (AI_RESPONSES[category]) {
       feedback = AI_RESPONSES[category][language] || AI_RESPONSES[category]['en'];
+    } else if (intentResult.directResponseKey) {
+      feedback = intentResult.directResponseKey;
     } else {
       feedback = `${t.systemUnderstanding} ${category}`;
     }

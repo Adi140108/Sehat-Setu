@@ -25,9 +25,16 @@ body {
   flex-direction: column;
 }
 
-img, svg {
+img {
   display: block;
   max-width: 100%;
+}
+
+/* Lucide icons are inline SVGs — keep them inline-block so they sit
+   correctly next to text but don't create extra line-height space */
+svg {
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
 a {
@@ -37,4 +44,11 @@ a {
 
 button {
   font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  overflow-wrap: break-word;
 }
