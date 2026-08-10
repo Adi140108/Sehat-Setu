@@ -20,9 +20,29 @@ export class TextToSpeechService {
     this.stop(); // Stop any active speech
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = LANG_BCP47_MAP[language] || 'hi-IN';
-    utterance.rate = 0.95; // Slightly slower for clarity in rural healthcare setting
+    const targetLang = LANG_BCP47_MAP[language] || 'hi-IN';
+    utterance.lang = targetLang;
+    utterance.rate = 0.90; // Slower rate for clear pronunciation in local languages
     utterance.pitch = 1.0;
+
+    // Load available voices and find a match for the target locale/language
+    const voices = this.synth.getVoices();
+    
+    // 1. Try to find exact locale match (e.g. "hi-IN" or "ta-IN")
+    let voice = voices.find(v => v.lang.toLowerCase() === targetLang.toLowerCase());
+    
+    // 2. Try prefix match (e.g. "hi" or "ta")
+    if (!voice) {
+      const prefix = targetLang.split('-')[0].toLowerCase();
+      voice = voices.find(v => v.lang.toLowerCase().startsWith(prefix));
+    }
+
+    if (voice) {
+      utterance.voice = voice;
+      console.log(`TTS matches voice: ${voice.name} (${voice.lang})`);
+    } else {
+      console.warn(`No native voice found for ${targetLang}, defaulting to system fallback.`);
+    }
 
     if (onEnd) {
       utterance.onend = onEnd;
