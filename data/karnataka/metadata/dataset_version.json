@@ -1,0 +1,27 @@
+{
+  "dataset": "Sehat Setu Karnataka Production",
+  "version": "1.0.0",
+  "generatedAt": "2026-08-14T03:22:20.206029Z",
+  "stateCode": "KA",
+  "sourceHashes": {
+    "KA_chc_source_2022.csv": "940e5a788902408d8610d96767431f56",
+    "KA_district_hospitals_source_2022.csv": "1e2cf7f4b55539556ecdb057cfffc413",
+    "national_hospital_directory.csv": "2a1b832dfad3972a32998de751476db5",
+    "KA_health_facilities_source_2025.pdf": "89d2091d44b48e4b4d95343d4ab62ea3",
+    "KA_phc_chc_dh_officer_source_2025.pdf": "d7e47ecc9d74e6b998bb9d9195a336f2",
+    "KA_jan_aushadhi_kendras.pdf": "e2ffb769dffdfac5196808a2e7f47cf9",
+    "KA_jan_aushadhi_medicines_source.csv": "6c3627a63576a45b406e5ef76369fee8",
+    "GroupDVacancyList.pdf": "89d2091d44b48e4b4d95343d4ab62ea3",
+    "kendra_11_8_2026 @ 5_15_16.pdf": "6002d325230e429d531ac5f198331dda"
+  },
+  "recordCounts": {
+    "KA_chc_source_2022.csv": 141,
+    "KA_district_hospitals_source_2022.csv": 33,
+    "national_hospital_directory.csv": 2226,
+    "KA_health_facilities_source_2025.pdf": 1354,
+    "KA_phc_chc_dh_officer_source_2025.pdf": 2423,
+    "KA_jan_aushadhi_kendras.pdf": 1723,
+    "KA_jan_aushadhi_medicines_source.csv": 2439
+  },
+  "pipelineVersion": "2.0.0"
+}

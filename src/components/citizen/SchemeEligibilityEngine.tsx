@@ -4,7 +4,8 @@ import type { HealthScheme } from '../../types';
 import { evaluateAllSchemes } from '../../services/schemes/schemeEngine';
 import type { EligibilityResult } from '../../services/schemes/schemeEngine';
 import { DocumentChecklist } from './DocumentChecklist';
-import { ShieldCheck, CheckCircle2, AlertCircle, HelpCircle, FileText, ExternalLink } from 'lucide-react';
+import { analyticsService } from '../../services/analytics/analyticsService';
+import { ShieldCheck, CheckCircle2, HelpCircle, FileText, ExternalLink } from 'lucide-react';
 
 export const SchemeEligibilityEngine: React.FC = () => {
   const { t } = useLanguage();
@@ -90,7 +91,18 @@ export const SchemeEligibilityEngine: React.FC = () => {
             const { scheme, status, matchedCriteria, missingCriteria, disclaimers } = result;
 
             return (
-              <div key={scheme.id} className="card-glass" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div 
+                key={scheme.id} 
+                className="card-glass" 
+                style={{ 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: '12px',
+                  opacity: status === 'NOT_MATCHING_RULES' ? 0.55 : 1,
+                  filter: status === 'NOT_MATCHING_RULES' ? 'grayscale(40%)' : 'none',
+                  pointerEvents: status === 'NOT_MATCHING_RULES' ? 'none' : 'auto'
+                }}
+              >
                 
                 {/* Scheme Header & Status Badge */}
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '8px' }}>
@@ -115,12 +127,6 @@ export const SchemeEligibilityEngine: React.FC = () => {
                         <HelpCircle size={14} /> {t.moreInfoRequired}
                       </span>
                     )}
-
-                    {status === 'NOT_MATCHING_RULES' && (
-                      <span className="badge badge-emergency" style={{ padding: '6px 12px', fontSize: '0.85rem' }}>
-                        <AlertCircle size={14} /> {t.notMatchingRules}
-                      </span>
-                    )}
                   </div>
                 </div>
 
@@ -132,12 +138,12 @@ export const SchemeEligibilityEngine: React.FC = () => {
 
                 {/* Criteria Match Details */}
                 <div style={{ fontSize: '0.82rem' }}>
-                  {matchedCriteria.length > 0 && (
+                  {status !== 'NOT_MATCHING_RULES' && matchedCriteria.length > 0 && (
                     <div style={{ color: 'var(--success-green)', fontWeight: 600 }}>
                       ✓ Matches: {matchedCriteria.join(' | ')}
                     </div>
                   )}
-                  {missingCriteria.length > 0 && (
+                  {status !== 'NOT_MATCHING_RULES' && missingCriteria.length > 0 && (
                     <div style={{ color: '#d97706', fontWeight: 600, marginTop: '2px' }}>
                       ⚠️ Info needed: {missingCriteria.join(' | ')}
                     </div>
@@ -145,14 +151,20 @@ export const SchemeEligibilityEngine: React.FC = () => {
                 </div>
 
                 {/* Status Disclaimer Label */}
-                <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>
-                  * {disclaimers}
-                </p>
+                {status !== 'NOT_MATCHING_RULES' && (
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                    * {disclaimers}
+                  </p>
+                )}
 
                 {/* Actions */}
                 <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', paddingTop: '10px', borderTop: '1px solid var(--border-color)' }}>
                   <button 
-                    onClick={() => setSelectedSchemeForDocs(scheme)}
+                    onClick={() => {
+                      analyticsService.trackEvent('SCHEME_VIEWED', { schemeId: scheme.id, schemeName: scheme.shortName });
+                      analyticsService.trackEvent('DOCUMENT_REQUIREMENTS_VIEWED', { schemeId: scheme.id, schemeName: scheme.shortName });
+                      setSelectedSchemeForDocs(scheme);
+                    }}
                     className="btn btn-primary"
                     style={{ padding: '6px 14px', fontSize: '0.85rem', minHeight: '34px' }}
                   >

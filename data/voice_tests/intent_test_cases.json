@@ -1,0 +1,122 @@
+[
+  {
+    "text": "ede novu",
+    "expectedIntent": "EMERGENCY",
+    "language": "kn"
+  },
+  {
+    "text": "I have severe chest pain and breathlessness",
+    "expectedIntent": "EMERGENCY",
+    "language": "en"
+  },
+  {
+    "text": "saans lene me dikkat",
+    "expectedIntent": "EMERGENCY",
+    "language": "hi"
+  },
+  {
+    "text": "hospital near me",
+    "expectedIntent": "FIND_NEARBY_FACILITY",
+    "language": "en"
+  },
+  {
+    "text": "paas mein sarkari hospital",
+    "expectedIntent": "FIND_GOVERNMENT_HOSPITAL",
+    "language": "hi"
+  },
+  {
+    "text": "government clinic in kolar",
+    "expectedIntent": "FIND_GOVERNMENT_HOSPITAL",
+    "language": "en"
+  },
+  {
+    "text": "nearest phc center",
+    "expectedIntent": "FIND_PHC",
+    "language": "en"
+  },
+  {
+    "text": "ಸಮುದಾಯ ಆರೋಗ್ಯ ಕೇಂದ್ರ ಎಲ್ಲಿದೆ",
+    "expectedIntent": "FIND_CHC",
+    "language": "kn"
+  },
+  {
+    "text": "mere area mein ayushman hospital kaha hai",
+    "expectedIntent": "FIND_PMJAY_FACILITY",
+    "language": "hi"
+  },
+  {
+    "text": "I need Ayushman card hospital in Bengaluru",
+    "expectedIntent": "FIND_PMJAY_FACILITY",
+    "language": "en"
+  },
+  {
+    "text": "ಯೋಜನೆ ವಿವರಗಳು ಬೇಕು",
+    "expectedIntent": "FIND_HEALTH_SCHEME",
+    "language": "kn"
+  },
+  {
+    "text": "ayushman card benefits details",
+    "expectedIntent": "CHECK_SCHEME_INFORMATION",
+    "language": "en"
+  },
+  {
+    "text": "what documents are required for health scheme",
+    "expectedIntent": "DOCUMENT_REQUIREMENTS",
+    "language": "en"
+  },
+  {
+    "text": "hospital timings and contact",
+    "expectedIntent": "FACILITY_INFORMATION",
+    "language": "en"
+  },
+  {
+    "text": "start profile setup",
+    "expectedIntent": "START_HEALTHCARE_JOURNEY",
+    "language": "en"
+  },
+  {
+    "text": "continue onboarding",
+    "expectedIntent": "RESUME_HEALTHCARE_JOURNEY",
+    "language": "en"
+  },
+  {
+    "text": "talk to asha worker",
+    "expectedIntent": "HUMAN_SUPPORT",
+    "language": "en"
+  },
+  {
+    "text": "doctor is not available in hospital",
+    "expectedIntent": "FACILITY_PROBLEM",
+    "language": "en"
+  },
+  {
+    "text": "search medicine paracetamol",
+    "expectedIntent": "SEARCH_MEDICINE",
+    "language": "en"
+  },
+  {
+    "text": "dolo 650 generic alternate cost",
+    "expectedIntent": "FIND_JANAUSHADHI_ALTERNATIVE",
+    "language": "en"
+  },
+  {
+    "text": "nearest jan aushadhi kendra shop",
+    "expectedIntent": "FIND_JANAUSHADHI_KENDRA",
+    "language": "en"
+  },
+  {
+    "text": "namaste hello",
+    "expectedIntent": "GREETING",
+    "language": "hi"
+  },
+  {
+    "text": "guide me how to use this app",
+    "expectedIntent": "HELP",
+    "language": "en"
+  },
+  {
+    "text": "random query xyz abc",
+    "expectedIntent": "UNKNOWN",
+    "language": "en"
+  }
+]

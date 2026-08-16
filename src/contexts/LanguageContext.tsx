@@ -21,7 +21,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     localStorage.setItem('sehat_setu_lang', lang);
   };
 
-  const t = translations[language] || translations['en'];
+  const t = (translations[language] || translations['en']) as Translations;
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>

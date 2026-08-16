@@ -1,0 +1,392 @@
+[
+  {
+    "id": "KA-DIST-9D5ED6",
+    "name": "B",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-4043E2",
+    "name": "Bagalkot",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-E353E1",
+    "name": "Bagalkote",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-1E4157",
+    "name": "Ballari",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-CF5649",
+    "name": "Bbmp",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-932198",
+    "name": "Belagavi",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-9DB26D",
+    "name": "Bengaluru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-49BFEA",
+    "name": "Bengaluru Rural",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-2D02BD",
+    "name": "Bengaluru Urban",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-3FB4E8",
+    "name": "Bidar",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-0D61F8",
+    "name": "C",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-45C4FF",
+    "name": "Chamarajan",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-2CB08C",
+    "name": "Chamarajanagar",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-1EF767",
+    "name": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-FBDF50",
+    "name": "Chamarajanagargundlupet",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-CBE675",
+    "name": "Chamarajanagarhanuru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-00BE3D",
+    "name": "Chamarajanagarkollegala",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-150CF8",
+    "name": "Chamarajanagaryalanduru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-EF01F2",
+    "name": "Chikkaballapur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-426032",
+    "name": "Chikkaballapurbagepalli",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-25BD74",
+    "name": "Chikkaballapurchickballapur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-ADE92E",
+    "name": "Chikkaballapurchintamani",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-4E4627",
+    "name": "Chikkaballapurgowribidanuru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-45D64F",
+    "name": "Chikkaballapurgudibande",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-2BC7AD",
+    "name": "Chikkaballapursidlaghatta",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-923600",
+    "name": "Chikkamagalur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-B81079",
+    "name": "Chikkodi",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-8F8C47",
+    "name": "Chikmagalur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-E3870E",
+    "name": "Chitradurga",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-F623E7",
+    "name": "D",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-83BAF6",
+    "name": "Dakshina",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-269065",
+    "name": "Dakshina Kannada",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-9DE4EF",
+    "name": "Davangere",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-1FACF2",
+    "name": "Dharwad",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-71A50C",
+    "name": "Gadag",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-E9149D",
+    "name": "Hassan",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-C1D211",
+    "name": "Haveri",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-A5F3C6",
+    "name": "K",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-3C2D5D",
+    "name": "Kalaburagi",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-217994",
+    "name": "Kalaburgi",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-26A913",
+    "name": "Kodagu",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-F229CE",
+    "name": "Kolar",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-A02853",
+    "name": "Koppal",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-69691C",
+    "name": "M",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-A61604",
+    "name": "Mandya",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-A3487F",
+    "name": "Mysuru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-E1E1D3",
+    "name": "R",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-961082",
+    "name": "Raichur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-90414D",
+    "name": "Ramanagara",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-5DBC98",
+    "name": "S",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-8C8C7A",
+    "name": "Shivamogga",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-B9ECE1",
+    "name": "T",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-1AFD19",
+    "name": "Tumakuru",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-4C6143",
+    "name": "U",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-948250",
+    "name": "Udupi",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-8F1C0E",
+    "name": "Uttara Kannada",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-AB3160",
+    "name": "Uttarakannada",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-520656",
+    "name": "V",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-E01038",
+    "name": "Vijayanagar",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-F4B640",
+    "name": "Vijayapur",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-0D4BBC",
+    "name": "Vijayapura",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-933D3C",
+    "name": "Vijyapura",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-57CEC4",
+    "name": "Y",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-44D813",
+    "name": "Yadgir",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  },
+  {
+    "id": "KA-DIST-465D7F",
+    "name": "Yadgiri",
+    "stateCode": "KA",
+    "stateName": "Karnataka"
+  }
+]

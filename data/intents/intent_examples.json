@@ -1,0 +1,184 @@
+{
+  "FIND_NEARBY_FACILITY": [
+    "nearest hospital",
+    "hospital near me",
+    "paas mein hospital",
+    "huttira iro hospital",
+    "huttira yaavudhadru hospital",
+    "doctor near me",
+    "clinic close to me",
+    "hospitals in kolar"
+  ],
+  "FIND_GOVERNMENT_HOSPITAL": [
+    "government hospital",
+    "sarkari hospital",
+    "sarkari dawakhana",
+    "government clinic near me",
+    "sarkari aushadhalaya",
+    "ಸರಕಾರಿ ಆಸ್ಪತ್ರೆ ಎಲ್ಲಿದೆ",
+    "sarkari hospital near me",
+    "nearest government hospital"
+  ],
+  "FIND_PHC": [
+    "primary health centre",
+    "phc near me",
+    "phc hospital",
+    "primary health center in kolar",
+    "ಪ್ರಾಥಮಿಕ ಆರೋಗ್ಯ ಕೇಂದ್ರ",
+    "nearest phc",
+    "phc centre"
+  ],
+  "FIND_CHC": [
+    "community health centre",
+    "chc near me",
+    "chc hospital",
+    "community health center",
+    "ಸಮುದಾಯ ಆರೋಗ್ಯ ಕೇಂದ್ರ",
+    "chc center list"
+  ],
+  "FIND_DISTRICT_HOSPITAL": [
+    "district hospital",
+    "dh near me",
+    "district hospital kolar",
+    "district hospital bagalkot",
+    "ಜಿಲ್ಲಾ ಆಸ್ಪತ್ರೆ"
+  ],
+  "FIND_PMJAY_FACILITY": [
+    "ayushman hospital",
+    "pmjay hospital near me",
+    "ayushman card hospital",
+    "pm-jay empanelled hospital",
+    "ನನಗೆ ಆಯುಷ್ಮಾನ್ ಆಸ್ಪತ್ರೆ ಬೇಕು",
+    "ayushman hospital list",
+    "mere area mein ayushman hospital kaha hai"
+  ],
+  "FIND_HEALTH_SCHEME": [
+    "health scheme eligibility",
+    "scheme card",
+    "ayushman scheme",
+    "government health schemes",
+    "ಯೋಜನೆಗಳು",
+    "free healthcare schemes",
+    "ayushman bharat scheme apply"
+  ],
+  "CHECK_SCHEME_INFORMATION": [
+    "ayushman card benefits",
+    "pmjay eligibility criteria",
+    "what is ayushman scheme",
+    "yojana information",
+    "ayushman bharat information",
+    "scheme detail"
+  ],
+  "DOCUMENT_REQUIREMENTS": [
+    "what documents are required",
+    "document list for ayushman card",
+    "aadhaar and ration card needed",
+    "paper copy needed",
+    "kya kya document chahiye",
+    "ದಾಖಲೆಗಳು ಏನು ಬೇಕು",
+    "ration card for scheme"
+  ],
+  "FACILITY_INFORMATION": [
+    "hospital timings",
+    "is hospital open today",
+    "hospital phone number",
+    "timings of phc",
+    "government hospital contact details"
+  ],
+  "START_HEALTHCARE_JOURNEY": [
+    "start my profile",
+    "create account",
+    "sign up now",
+    "register me",
+    "nanna profile start madi"
+  ],
+  "RESUME_HEALTHCARE_JOURNEY": [
+    "continue profile",
+    "resume onboarding",
+    "complete my setup",
+    "sign in back"
+  ],
+  "HUMAN_SUPPORT": [
+    "talk to person",
+    "asha worker",
+    "connect with volunteer",
+    "speak to human helper",
+    "baat karni hai",
+    "ಸಹಾಯ ಬೇಕು",
+    "call asha worker"
+  ],
+  "FACILITY_PROBLEM": [
+    "hospital is closed",
+    "no doctor in phc",
+    "doctor is not available",
+    "complaint against hospital",
+    "medicine not available"
+  ],
+  "EMERGENCY": [
+    "severe chest pain",
+    "heart attack",
+    "cannot breathe",
+    "unconscious",
+    "passed out",
+    "heavy bleeding",
+    "snake bite",
+    "poisoning",
+    "major accident",
+    "pregnancy labor emergency",
+    "saans nahi aa rahi",
+    "ede novu",
+    "ಎದೆ ನೋವು"
+  ],
+  "SEARCH_MEDICINE": [
+    "search medicine",
+    "generic medicine search",
+    "find tablets",
+    "dawa search",
+    "medicine locator"
+  ],
+  "FIND_GENERIC_PRODUCT": [
+    "generic name of paracetamol",
+    "generic version of dolo",
+    "generic medicines list",
+    "generic alternate"
+  ],
+  "FIND_JANAUSHADHI_ALTERNATIVE": [
+    "dolo 650 jan aushadhi alternative",
+    "jan aushadhi alternative for calpol",
+    "generic sub for crocin",
+    "jan aushadhi replacement"
+  ],
+  "FIND_JANAUSHADHI_KENDRA": [
+    "nearest jan aushadhi kendra",
+    "generic store near me",
+    "jan aushadhi shop",
+    "kendra near me",
+    "ಜನೌಷಧಿ ಕೇಂದ್ರ ಎಲ್ಲಿದೆ"
+  ],
+  "CHECK_PRODUCT_PRICE": [
+    "mrp of paracetamol",
+    "jan aushadhi medicine price",
+    "how much does dolo cost",
+    "generic medicine rate"
+  ],
+  "GREETING": [
+    "hello",
+    "hi",
+    "namaste",
+    "namaskara",
+    "good morning",
+    "hey there"
+  ],
+  "HELP": [
+    "help",
+    "what can you do",
+    "how to use this app",
+    "explain options",
+    "guide me"
+  ],
+  "UNKNOWN": [
+    "random text query",
+    "xyz abc",
+    "not sure what to say"
+  ]
+}

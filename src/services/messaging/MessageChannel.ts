@@ -22,7 +22,7 @@ export class WebChannel implements MessageChannel {
   async sendMessage(payload: MessagePayload): Promise<ChannelResponse> {
     const lang: LanguageCode = payload.language || 'hi';
     const text = payload.text || '';
-    const intentResult = classifyIntent(text, lang);
+    const intentResult = await classifyIntent(text, lang);
 
     if (intentResult.isEmergency) {
       return {
@@ -52,7 +52,7 @@ export class WhatsAppChannel implements MessageChannel {
   async sendMessage(payload: MessagePayload): Promise<ChannelResponse> {
     const lang: LanguageCode = payload.language || 'hi';
     const text = payload.text || '';
-    const intentResult = classifyIntent(text, lang);
+    const intentResult = await classifyIntent(text, lang);
 
     if (intentResult.isEmergency) {
       return {

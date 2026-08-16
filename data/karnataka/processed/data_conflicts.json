@@ -1,0 +1,524 @@
+[
+  {
+    "conflictId": "CON-0001",
+    "recordId": "KA-FAC-FEBE8828DC75",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9290883,77.5819886 vs 12.9786942,77.6945322",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9290883,
+        77.5819886
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9786942,
+        77.6945322
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0002",
+    "recordId": "KA-FAC-5D80B0B1776E",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.945843,77.5674499 vs 12.9174394,77.5949199",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.945843,
+        77.5674499
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9174394,
+        77.5949199
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0003",
+    "recordId": "KA-FAC-3D292E6C4DA9",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.7188069,77.7018795 vs 13.0506057,77.5118463",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.7188069,
+        77.7018795
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.0506057,
+        77.5118463
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0004",
+    "recordId": "KA-FAC-E015829D915D",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.1040221,77.6073011 vs 12.9590918,77.5192061",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.1040221,
+        77.6073011
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9590918,
+        77.5192061
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0005",
+    "recordId": "KA-FAC-3452485C3BFF",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9961984,77.5734176 vs 13.051161,77.5073215",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9961984,
+        77.5734176
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.051161,
+        77.5073215
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0006",
+    "recordId": "KA-FAC-F3690C2EEB5C",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9254199,77.591849 vs 12.9254533,77.546757",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9254199,
+        77.591849
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9254533,
+        77.546757
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0007",
+    "recordId": "KA-FAC-604C3F710BFF",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.1004849,77.5940134 vs 12.9289462,77.5519962",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.1004849,
+        77.5940134
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9289462,
+        77.5519962
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0008",
+    "recordId": "KA-FAC-6406047D9F1B",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9200121,77.5748334 vs 12.9234955,77.5548886",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9200121,
+        77.5748334
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9234955,
+        77.5548886
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0009",
+    "recordId": "KA-FAC-E617182553D6",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.0576513,77.5967615 vs 12.9325662,77.6125214",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.0576513,
+        77.5967615
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9325662,
+        77.6125214
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0010",
+    "recordId": "KA-FAC-FEBE8828DC75",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9290883,77.5819886 vs 12.9015198,77.5596242",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9290883,
+        77.5819886
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9015198,
+        77.5596242
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0011",
+    "recordId": "KA-FAC-14E06D968090",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9369154,77.6407258 vs 12.9279232,77.6271078",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9369154,
+        77.6407258
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9279232,
+        77.6271078
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0012",
+    "recordId": "KA-FAC-7BF7617B4670",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9128912,77.5787769 vs 12.911103,77.57314",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9128912,
+        77.5787769
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.911103,
+        77.57314
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0013",
+    "recordId": "KA-FAC-DA382E2D4103",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.0304978,77.5522692 vs 12.9956355,77.5504955",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.0304978,
+        77.5522692
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9956355,
+        77.5504955
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0014",
+    "recordId": "KA-FAC-7E42218570A4",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.917936,77.5578222 vs 12.9714646,77.5815375",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.917936,
+        77.5578222
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9714646,
+        77.5815375
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0015",
+    "recordId": "KA-FAC-6A7D859EA175",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9890609,77.5820957 vs 12.9851615,77.5803852",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9890609,
+        77.5820957
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9851615,
+        77.5803852
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0016",
+    "recordId": "KA-FAC-F70887119A90",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.1077823,77.5716915 vs 28.4689118,77.1411003",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.1077823,
+        77.5716915
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        28.4689118,
+        77.1411003
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0017",
+    "recordId": "KA-FAC-05E32FF2867E",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.029083,77.5904031 vs 13.0506057,77.5118463",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.029083,
+        77.5904031
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.0506057,
+        77.5118463
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0018",
+    "recordId": "KA-FAC-0EF5E36E9D3C",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9217594,77.5706784 vs 12.9714646,77.5815375",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9217594,
+        77.5706784
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9714646,
+        77.5815375
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0019",
+    "recordId": "KA-FAC-D4AA851D559C",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.0091495,77.5550075 vs 13.0061399,77.5537558",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.0091495,
+        77.5550075
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.0061399,
+        77.5537558
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0020",
+    "recordId": "KA-FAC-D7783400A581",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9421166,77.5753609 vs 12.9436431,77.5799234",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9421166,
+        77.5753609
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9436431,
+        77.5799234
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0021",
+    "recordId": "KA-FAC-809FE9051A31",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9999879,77.5680956 vs 13.0000884,77.5670569",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9999879,
+        77.5680956
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.0000884,
+        77.5670569
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0022",
+    "recordId": "KA-FAC-D0F4604E9C42",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9600447,77.7083461 vs 12.9556983,77.7112837",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9600447,
+        77.7083461
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9556983,
+        77.7112837
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0023",
+    "recordId": "KA-FAC-A7C87F947691",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9890161,77.5591649 vs 13.0123801,77.5570553",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9890161,
+        77.5591649
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.0123801,
+        77.5570553
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0024",
+    "recordId": "KA-FAC-759D7E02911B",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 13.0001603,77.5411082 vs 12.9647552,77.5908972",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        13.0001603,
+        77.5411082
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9647552,
+        77.5908972
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0025",
+    "recordId": "KA-FAC-18EB4CF848E4",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.97344,77.635628 vs 12.925255,77.577359",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.97344,
+        77.635628
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.925255,
+        77.577359
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0026",
+    "recordId": "KA-FAC-0C2DC896D53D",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9886641,75.2725454 vs 12.9891427,75.2787425",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9886641,
+        75.2725454
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.9891427,
+        75.2787425
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0027",
+    "recordId": "KA-FAC-8C5841F53389",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9922045,75.2881258 vs 13.7414154,76.8992584",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9922045,
+        75.2881258
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        13.7414154,
+        76.8992584
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0028",
+    "recordId": "KA-FAC-0C2DC896D53D",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.9886641,75.2725454 vs 12.7686756,75.2070644",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.9886641,
+        75.2725454
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.7686756,
+        75.2070644
+      ]
+    }
+  },
+  {
+    "conflictId": "CON-0029",
+    "recordId": "KA-FAC-2DE81F1B94B4",
+    "fieldName": "coordinates",
+    "description": "Conflict coordinates: 12.7676565,75.1960773 vs 12.7686756,75.2070644",
+    "values": {
+      "sourceA": "national_hospital_directory.csv",
+      "coordA": [
+        12.7676565,
+        75.1960773
+      ],
+      "sourceB": "national_hospital_directory.csv",
+      "coordB": [
+        12.7686756,
+        75.2070644
+      ]
+    }
+  }
+]

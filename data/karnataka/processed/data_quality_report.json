@@ -1,0 +1,30 @@
+{
+  "total_source_files": 9,
+  "total_raw_records": {
+    "facilities": 6177,
+    "janaushadhi_kendras": 1723,
+    "janaushadhi_products": 2439
+  },
+  "processed_records": {
+    "facilities": 6000,
+    "janaushadhi_kendras": 1723,
+    "janaushadhi_products": 2439
+  },
+  "rejected_records": 0,
+  "records_requiring_review": 0,
+  "duplicates_detected": 173,
+  "duplicates_merged": 173,
+  "missing_coordinates": 870,
+  "invalid_coordinates": 108,
+  "missing_pincodes": 3947,
+  "invalid_pincodes": 10,
+  "missing_names": 4,
+  "missing_facility_types": 0,
+  "missing_districts": 0,
+  "missing_taluks": 0,
+  "conflicting_values": 29,
+  "jan_aushadhi_extraction_problems": 0,
+  "jan_aushadhi_product_issues": 0,
+  "mrp_issues": 387,
+  "pmjay_cross_match_issues": 0
+}

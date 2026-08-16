@@ -1,69 +1,120 @@
 import { 
   signInAnonymously, 
-  signOut as firebaseSignOut
+  signOut as firebaseSignOut,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  signInWithCustomToken,
+  onAuthStateChanged
 } from 'firebase/auth';
-import { auth } from './firebase';
+import type { User as FirebaseUser } from 'firebase/auth';
+import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { auth, db, googleProvider } from './firebase';
 import type { UserProfile, UserRole } from '../../types';
 
-const STORAGE_KEY_USER = 'sehat_setu_user_session';
+/**
+ * Maps a Firebase user auth object and optional role to our UserProfile model from Firestore.
+ */
+export async function getOrCreateUserProfile(user: FirebaseUser, role: UserRole = 'citizen'): Promise<UserProfile> {
+  const userDocRef = doc(db, 'users', user.uid);
+  const userDocSnap = await getDoc(userDocRef);
 
-export async function loginAnonymous(): Promise<UserProfile> {
-  try {
-    const cred = await signInAnonymously(auth);
-    const userProfile: UserProfile = {
-      uid: cred.user.uid,
-      role: 'citizen',
-      preferredLanguage: 'hi',
-      createdAt: new Date().toISOString(),
+  if (userDocSnap.exists()) {
+    const data = userDocSnap.data();
+    return {
+      uid: user.uid,
+      role: data.role || role,
+      displayName: data.displayName || user.displayName || 'Sehat Setu User',
+      email: data.email || user.email || '',
+      phone: data.phoneNumber || user.phoneNumber || '',
+      photoUrl: data.photoUrl || user.photoURL || undefined,
+      preferredLanguage: data.preferredLanguage || 'kn',
+      location: data.location || undefined,
+      onboardingCompleted: Boolean(data.onboardingCompleted),
+      createdAt: data.createdAt ? (typeof data.createdAt.toDate === 'function' ? data.createdAt.toDate().toISOString() : new Date(data.createdAt).toISOString()) : new Date().toISOString(),
       lastActiveAt: new Date().toISOString()
-    };
-    localStorage.setItem(STORAGE_KEY_USER, JSON.stringify(userProfile));
-    return userProfile;
-  } catch (err) {
-    // Demo mode local session fallback
-    const mockUid = 'citizen-demo-' + Math.random().toString(36).substring(2, 9);
-    const mockProfile: UserProfile = {
-      uid: mockUid,
-      role: 'citizen',
-      displayName: 'Citizen User (Demo)',
-      preferredLanguage: 'hi',
-      createdAt: new Date().toISOString(),
-      lastActiveAt: new Date().toISOString()
-    };
-    localStorage.setItem(STORAGE_KEY_USER, JSON.stringify(mockProfile));
-    return mockProfile;
+    } as UserProfile & { onboardingCompleted?: boolean };
   }
-}
 
-export async function loginDemoRole(role: UserRole): Promise<UserProfile> {
-  const profile: UserProfile = {
-    uid: `${role}-demo-user`,
+  // Create new profile in Firestore if it doesn't exist
+  const newProfile: any = {
+    uid: user.uid,
     role: role,
-    displayName: role === 'admin' ? 'Health Admin Officer' : role === 'volunteer' ? 'ASHA Support Worker' : 'Citizen Demo User',
-    email: `${role}@sehatsetu.gov.in`,
-    preferredLanguage: 'hi',
+    displayName: user.displayName || 'Sehat Setu User',
+    email: user.email || '',
+    phoneNumber: user.phoneNumber || '',
+    photoUrl: user.photoURL || '',
+    preferredLanguage: 'kn', // Default to Kannada
+    createdAt: serverTimestamp(),
+    updatedAt: serverTimestamp(),
+    lastLoginAt: serverTimestamp(),
+    onboardingCompleted: false
+  };
+
+  await setDoc(userDocRef, newProfile);
+
+  return {
+    uid: user.uid,
+    role: newProfile.role,
+    displayName: newProfile.displayName,
+    email: newProfile.email,
+    phone: newProfile.phoneNumber,
+    photoUrl: newProfile.photoUrl || undefined,
+    preferredLanguage: newProfile.preferredLanguage,
+    onboardingCompleted: false,
     createdAt: new Date().toISOString(),
     lastActiveAt: new Date().toISOString()
-  };
-  localStorage.setItem(STORAGE_KEY_USER, JSON.stringify(profile));
+  } as UserProfile & { onboardingCompleted?: boolean };
+}
+
+export async function loginAnonymous(): Promise<UserProfile> {
+  const cred = await signInAnonymously(auth);
+  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
   return profile;
 }
 
-export function getCurrentSessionUser(): UserProfile | null {
-  const data = localStorage.getItem(STORAGE_KEY_USER);
-  if (!data) return null;
-  try {
-    return JSON.parse(data);
-  } catch (e) {
-    return null;
-  }
+export async function loginWithGoogle(): Promise<UserProfile> {
+  const cred = await signInWithPopup(auth, googleProvider);
+  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
+  return profile;
+}
+
+export async function loginWithEmail(email: string, password: string): Promise<UserProfile> {
+  const cred = await signInWithEmailAndPassword(auth, email, password);
+  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
+  return profile;
+}
+
+export async function registerWithEmail(email: string, password: string): Promise<UserProfile> {
+  const cred = await createUserWithEmailAndPassword(auth, email, password);
+  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
+  return profile;
+}
+
+export async function loginWithCustomToken(customToken: string): Promise<UserProfile> {
+  const cred = await signInWithCustomToken(auth, customToken);
+  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
+  return profile;
 }
 
 export async function logoutUser(): Promise<void> {
-  try {
-    await firebaseSignOut(auth);
-  } catch (err) {
-    // ignore
-  }
-  localStorage.removeItem(STORAGE_KEY_USER);
+  await firebaseSignOut(auth);
 }
+
+// Set up listener to sync state with Firebase Auth
+export function subscribeToAuth(callback: (user: (UserProfile & { onboardingCompleted?: boolean }) | null) => void) {
+  return onAuthStateChanged(auth, async (fbUser) => {
+    if (fbUser) {
+      try {
+        const profile = await getOrCreateUserProfile(fbUser);
+        callback(profile);
+      } catch (e) {
+        console.error('Failed to load user profile from Firestore:', e);
+        callback(null);
+      }
+    } else {
+      callback(null);
+    }
+  });
+}
+

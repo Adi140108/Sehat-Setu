@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { createSupportRequest } from '../../services/firebase/firestoreService';
+import { analyticsService } from '../../services/analytics/analyticsService';
 import { Send, CheckCircle2, HeartHandshake } from 'lucide-react';
 
 interface HumanHandoffModalProps {
@@ -28,6 +29,8 @@ export const HumanHandoffModal: React.FC<HumanHandoffModalProps> = ({ onClose })
       needDescription: need,
       urgent: false
     });
+
+    analyticsService.trackEvent('SUPPORT_REQUEST_CREATED', { query: need });
 
     setIsSubmitted(true);
   };

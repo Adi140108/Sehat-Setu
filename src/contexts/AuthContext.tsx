@@ -1,30 +1,28 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { UserProfile, UserRole } from '../types';
-import { getCurrentSessionUser, loginDemoRole, logoutUser } from '../services/firebase/authService';
+import { subscribeToAuth, logoutUser } from '../services/firebase/authService';
 
 interface AuthContextType {
   user: UserProfile | null;
+  loading: boolean;
   role: UserRole;
-  switchRole: (role: UserRole) => Promise<void>;
   logout: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [user, setUser] = useState<UserProfile | null>(() => getCurrentSessionUser());
+  const [user, setUser] = useState<UserProfile | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    if (!user) {
-      // Auto-initialize demo citizen session for frictionless hackathon navigation
-      loginDemoRole('citizen').then(u => setUser(u));
-    }
-  }, []);
+    const unsubscribe = subscribeToAuth((profile) => {
+      setUser(profile);
+      setLoading(false);
+    });
 
-  const switchRole = async (newRole: UserRole) => {
-    const u = await loginDemoRole(newRole);
-    setUser(u);
-  };
+    return () => unsubscribe();
+  }, []);
 
   const logout = async () => {
     await logoutUser();
@@ -34,7 +32,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const role = user ? user.role : 'citizen';
 
   return (
-    <AuthContext.Provider value={{ user, role, switchRole, logout }}>
+    <AuthContext.Provider value={{ user, loading, role, logout }}>
       {children}
     </AuthContext.Provider>
   );
@@ -47,3 +45,4 @@ export const useAuth = () => {
   }
   return context;
 };
+

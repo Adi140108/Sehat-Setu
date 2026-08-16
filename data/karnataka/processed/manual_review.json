@@ -1,0 +1,6722 @@
+[
+  {
+    "reviewId": "REV-COORD-0001",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.7446955, 90.3679297",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.7446955, 90.3679297",
+      "hospitalName": "Shanthi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0002",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 28.5962004, 77.0731176",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "28.5962004, 77.0731176",
+      "hospitalName": "Tulasigirish Diabetes Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0003",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 9.6707394, 76.533547",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "9.6707394, 76.533547",
+      "hospitalName": "Vijaya Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0004",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.135931, 72.849588",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.135931, 72.849588",
+      "hospitalName": "Dr. Kotwal Maternity Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0005",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0373414, 80.2159027",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0373414, 80.2159027",
+      "hospitalName": "Savashram Chikitsalaya"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0006",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 28.1037911, 78.3545378",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "28.1037911, 78.3545378",
+      "hospitalName": "Suiddhi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0007",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 10.3624871, 77.9674234",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "10.3624871, 77.9674234",
+      "hospitalName": "Jangu Hospital and Polyclinic"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0008",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.2642046, 77.4012237",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.2642046, 77.4012237",
+      "hospitalName": "Shrinivas Eye Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0009",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.650362, -73.1770262",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.650362, -73.1770262",
+      "hospitalName": "Dr Murgude Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0010",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 34.1255413, 74.9442585",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "34.1255413, 74.9442585",
+      "hospitalName": "Arunodaya Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0011",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9628521, 80.1862917",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9628521, 80.1862917",
+      "hospitalName": "Cs Multispeciality Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0012",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 8.5206817, 76.9254134",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "8.5206817, 76.9254134",
+      "hospitalName": "Vims"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0013",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.2156354, 72.6369415",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.2156354, 72.6369415",
+      "hospitalName": "Adarsh Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0014",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 30.5971118, -87.3640264",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "30.5971118, -87.3640264",
+      "hospitalName": "Vijay Nagaraj Super Speciality Eye Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0015",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 40.7362138, -73.9366927",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "40.7362138, -73.9366927",
+      "hospitalName": "Citi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0016",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.1645467, 72.944227",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.1645467, 72.944227",
+      "hospitalName": "Popular Nur"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0017",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.7509604, 90.4400338",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.7509604, 90.4400338",
+      "hospitalName": "Bangalore West Lions Eye Hospital and Cornea Grafting"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0018",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 18.961019, 72.8359607",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "18.961019, 72.8359607",
+      "hospitalName": "Institute Of Nephro Urology"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0019",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.8131377, 90.3985468",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.8131377, 90.3985468",
+      "hospitalName": "Vani Vilas Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0020",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.063199, 80.2235291",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.063199, 80.2235291",
+      "hospitalName": "Popular Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0021",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0632319, 80.221594",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0632319, 80.221594",
+      "hospitalName": "Sharada Dhanvantari Haemodialysis Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0022",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9955442, 80.2514885",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9955442, 80.2514885",
+      "hospitalName": "Joseph Clinic"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0023",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.9932901, -107.9492606",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.9932901, -107.9492606",
+      "hospitalName": "Manipal Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0024",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: -33.7659967, 150.7741332",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "-33.7659967, 150.7741332",
+      "hospitalName": "St. Marys Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0025",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9785849, 80.2320987",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9785849, 80.2320987",
+      "hospitalName": "Apollo Rm Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0026",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: -1.8996701, 36.301039",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "-1.8996701, 36.301039",
+      "hospitalName": "Magadi Road Meternity Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0027",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9670443, 80.2091237",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9670443, 80.2091237",
+      "hospitalName": "Medicare Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0028",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 29.9038399, 73.8771901",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "29.9038399, 73.8771901",
+      "hospitalName": "North Side Health Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0029",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 26.881779, 75.7797559",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "26.881779, 75.7797559",
+      "hospitalName": "Pratham Ent and Child Care Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0030",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.9932901, -107.9492606",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.9932901, -107.9492606",
+      "hospitalName": "Genesis Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0031",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 30.267153, -97.7430608",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "30.267153, -97.7430608",
+      "hospitalName": "Alisa Eye Clinic and Daycare Microsurgical Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0032",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 30.4505663, -97.6669009",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "30.4505663, -97.6669009",
+      "hospitalName": "Austin Town Meternity Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0033",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 25.9384228, 87.4033964",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "25.9384228, 87.4033964",
+      "hospitalName": "Cosmo Multispeciality Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0034",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.7865252, 74.0678281",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.7865252, 74.0678281",
+      "hospitalName": "Narayana Hrudayalaya Csi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0035",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.2105512, 72.8748702",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.2105512, 72.8748702",
+      "hospitalName": "Mahesh Clinic"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0036",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: -32.214234, 116.010362",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "-32.214234, 116.010362",
+      "hospitalName": "Sreeniwasa Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0037",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.6781837, 79.352188",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.6781837, 79.352188",
+      "hospitalName": "Rajankunte Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0038",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 35.2493485, -95.2377067",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "35.2493485, -95.2377067",
+      "hospitalName": "Pushpa Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0039",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 23.223396, 77.4334193",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "23.223396, 77.4334193",
+      "hospitalName": "Scan Point Diagnostics"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0040",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 36.778261, -119.4179324",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "36.778261, -119.4179324",
+      "hospitalName": "Y K Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0041",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 30.5781488, -91.1700371",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "30.5781488, -91.1700371",
+      "hospitalName": "Aayugs Multispeciality Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0042",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9785849, 80.2320987",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9785849, 80.2320987",
+      "hospitalName": "Lalitha Healthcare Pvt.Ltd.(A Fortis Network Hospital)"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0043",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 36.778261, -119.4179324",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "36.778261, -119.4179324",
+      "hospitalName": "Narayana Multispeciality Hospital(A Unit Of Narayana Hrudayalaya Pvt Ltd)"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0044",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 28.4689118, 77.1411003",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "28.4689118, 77.1411003",
+      "hospitalName": "Neha Prakash Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0045",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 29.2660313, 47.8625634",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "29.2660313, 47.8625634",
+      "hospitalName": "Sri Sai Ram Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0046",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: -37.870742, 144.83787",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "-37.870742, 144.83787",
+      "hospitalName": "Vikram Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0047",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 25.3937109, 68.2549869",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "25.3937109, 68.2549869",
+      "hospitalName": "Vivek Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0048",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 11.9498781, 79.8002558",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "11.9498781, 79.8002558",
+      "hospitalName": "Dhanvantari Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0049",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 18.931092, 72.826454",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "18.931092, 72.826454",
+      "hospitalName": "Dr. Munir Bangi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0050",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 10.9614397, 78.0757876",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "10.9614397, 78.0757876",
+      "hospitalName": "Assissi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0051",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0343948, 80.1713919",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0343948, 80.1713919",
+      "hospitalName": "Ashraya Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0052",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 10.8238097, 78.687498",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "10.8238097, 78.687498",
+      "hospitalName": "Indira Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0053",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 16.1916584, 81.1250985",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "16.1916584, 81.1250985",
+      "hospitalName": "Basaveshwara Hospital and Research Center Pvt Ltd"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0054",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 41.9551248, -70.6631837",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "41.9551248, -70.6631837",
+      "hospitalName": "Chitradurga Ortha Care Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0055",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 41.9551248, -70.6631837",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "41.9551248, -70.6631837",
+      "hospitalName": "Udaya Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0056",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.078944, 80.2119443",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.078944, 80.2119443",
+      "hospitalName": "Bhats Nurshing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0057",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 31.4388107, 74.2919165",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "31.4388107, 74.2919165",
+      "hospitalName": "Ashwini Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0058",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 42.872516, -78.0225394",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "42.872516, -78.0225394",
+      "hospitalName": "Eye Care Centre"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0059",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 39.865066, -74.93917",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "39.865066, -74.93917",
+      "hospitalName": "Shivaprakash Memorial Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0060",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0151965, 80.2089209",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0151965, 80.2089209",
+      "hospitalName": "Suraj Hospital Pvt. Ltd."
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0061",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 22.8611273, 88.368633",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "22.8611273, 88.368633",
+      "hospitalName": "Chandan Nagar Ocular Clinic"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0062",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 22.7156108, 88.3336032",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "22.7156108, 88.3336032",
+      "hospitalName": "Rishra Seva Sadan"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0063",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 9.9556669, 78.1289565",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "9.9556669, 78.1289565",
+      "hospitalName": "Hubli Heart Care Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0064",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 22.9884468, 72.4949156",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "22.9884468, 72.4949156",
+      "hospitalName": "Siddharth Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0065",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 22.8603296, 88.3688527",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "22.8603296, 88.3688527",
+      "hospitalName": "United Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0066",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.0399378, 73.0194861",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.0399378, 73.0194861",
+      "hospitalName": "Kshema Orthopaedic Hospitals Pvt. Ltd."
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0067",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 30.016988, 31.2850809",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "30.016988, 31.2850809",
+      "hospitalName": "Mores Children Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0068",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 10.9978567, 76.9715147",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "10.9978567, 76.9715147",
+      "hospitalName": "Lakshmi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0069",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 10.9978567, 76.9715147",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "10.9978567, 76.9715147",
+      "hospitalName": "Mahalakshmi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0070",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 16.5147537, 80.6200619",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "16.5147537, 80.6200619",
+      "hospitalName": "Rajeev Hospital, Hassan"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0071",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0263892, 80.2566037",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0263892, 80.2566037",
+      "hospitalName": "Dr.Dange Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0072",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.1938516, -71.5723953",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.1938516, -71.5723953",
+      "hospitalName": "Dr.Manohar Sai Gowda Memorial Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0073",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 28.0277448, 79.1274036",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "28.0277448, 79.1274036",
+      "hospitalName": "Mandya Medical Institute Of Science, Mandya"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0074",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 24.5897924, 73.7002436",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "24.5897924, 73.7002436",
+      "hospitalName": "New Pragathi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0075",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 26.9069413, 75.8122758",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "26.9069413, 75.8122758",
+      "hospitalName": "Ravi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0076",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 24.5897924, 73.7002436",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "24.5897924, 73.7002436",
+      "hospitalName": "Santhathi Infertility and Maternity Center"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0077",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0393451, 80.2122528",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0393451, 80.2122528",
+      "hospitalName": "Sri Nidhi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0078",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9643509, 80.1411433",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9643509, 80.1411433",
+      "hospitalName": "KMC Hospital, Ambedkar Circle"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0079",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 51.0662544, -0.344527",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "51.0662544, -0.344527",
+      "hospitalName": "Krishna Rajendra Hospital,Mysore"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0080",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 22.7211712, 75.8615124",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "22.7211712, 75.8615124",
+      "hospitalName": "Relife Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0081",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 13.0298798, 80.2342283",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "13.0298798, 80.2342283",
+      "hospitalName": "Prajna Kuteera"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0082",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 32.8513987, 74.301692",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "32.8513987, 74.301692",
+      "hospitalName": "Government Hopital H.D. Kote"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0083",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 29.9947737, 31.3050458",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "29.9947737, 31.3050458",
+      "hospitalName": "V Care Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0084",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 44.5325123, -86.0192078",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "44.5325123, -86.0192078",
+      "hospitalName": "Malnad Hospital and Institute Of Oncology"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0085",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 44.7855112, -117.181967",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "44.7855112, -117.181967",
+      "hospitalName": "Lakshmi Nursing Home"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0086",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 27.0710253, 68.6130146",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "27.0710253, 68.6130146",
+      "hospitalName": "Sanjeevani Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0087",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 20.0358592, 73.8039261",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "20.0358592, 73.8039261",
+      "hospitalName": "Sri Vighneshwara Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0088",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 25.1244669, 75.8098141",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "25.1244669, 75.8098141",
+      "hospitalName": "Sree Sharada Devi Eye Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0089",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 12.9808209, 80.2066073",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "12.9808209, 80.2066073",
+      "hospitalName": "Shridevi Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0090",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 37.1904677, -77.6854117",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "37.1904677, -77.6854117",
+      "hospitalName": "Sri Matha Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0091",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.1938516, -71.5723953",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.1938516, -71.5723953",
+      "hospitalName": "Mahesh Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0092",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 43.1938516, -71.5723953",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "43.1938516, -71.5723953",
+      "hospitalName": "Anjali Hospital"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-COORD-0093",
+    "recordId": null,
+    "issueType": "INVALID_COORDINATES",
+    "description": "Suspicious or out-of-bounds coordinates extracted: 19.4559236, 73.3296037",
+    "sourceFiles": [
+      "national_hospital_directory.csv"
+    ],
+    "values": {
+      "coordinates": "19.4559236, 73.3296037",
+      "hospitalName": "Taluk Health Office"
+    },
+    "recommendedAction": "Locate facility manually and verify coordinates"
+  },
+  {
+    "reviewId": "REV-MRP-0094",
+    "recordId": "701",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 701: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "701",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0095",
+    "recordId": "1029",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1029: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1029",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0096",
+    "recordId": "1231",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1231: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1231",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0097",
+    "recordId": "1444",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1444: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1444",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0098",
+    "recordId": "1460",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1460: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1460",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0099",
+    "recordId": "1510",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1510: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1510",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0100",
+    "recordId": "1529",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1529: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1529",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0101",
+    "recordId": "1588",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1588: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1588",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0102",
+    "recordId": "1635",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1635: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1635",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0103",
+    "recordId": "1637",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1637: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1637",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0104",
+    "recordId": "1660",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1660: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1660",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0105",
+    "recordId": "1669",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1669: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1669",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0106",
+    "recordId": "1678",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1678: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1678",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0107",
+    "recordId": "1684",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1684: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1684",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0108",
+    "recordId": "1687",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1687: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1687",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0109",
+    "recordId": "1703",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1703: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1703",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0110",
+    "recordId": "1707",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1707: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1707",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0111",
+    "recordId": "1761",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1761: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1761",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0112",
+    "recordId": "1797",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1797: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1797",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0113",
+    "recordId": "1842",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1842: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1842",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0114",
+    "recordId": "1883",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1883: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1883",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0115",
+    "recordId": "1907",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1907: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1907",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0116",
+    "recordId": "1964",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1964: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1964",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0117",
+    "recordId": "1965",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1965: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1965",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0118",
+    "recordId": "1973",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1973: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1973",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0119",
+    "recordId": "1974",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1974: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1974",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0120",
+    "recordId": "1975",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1975: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1975",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0121",
+    "recordId": "1994",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 1994: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "1994",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0122",
+    "recordId": "2020",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2020: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2020",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0123",
+    "recordId": "2024",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2024: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2024",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0124",
+    "recordId": "2031",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2031: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2031",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0125",
+    "recordId": "2043",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2043: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2043",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0126",
+    "recordId": "2085",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2085: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2085",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0127",
+    "recordId": "2086",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2086: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2086",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0128",
+    "recordId": "2087",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2087: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2087",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0129",
+    "recordId": "2103",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2103: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2103",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0130",
+    "recordId": "2108",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2108: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2108",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0131",
+    "recordId": "2110",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2110: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2110",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0132",
+    "recordId": "2112",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2112: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2112",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0133",
+    "recordId": "2130",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2130: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2130",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0134",
+    "recordId": "2146",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2146: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2146",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0135",
+    "recordId": "2152",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2152: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2152",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0136",
+    "recordId": "2165",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2165: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2165",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0137",
+    "recordId": "2166",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2166: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2166",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0138",
+    "recordId": "2167",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2167: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2167",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0139",
+    "recordId": "2171",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2171: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2171",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0140",
+    "recordId": "2172",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2172: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2172",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0141",
+    "recordId": "2178",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2178: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2178",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0142",
+    "recordId": "2179",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2179: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2179",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0143",
+    "recordId": "2183",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2183: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2183",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0144",
+    "recordId": "2191",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2191: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2191",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0145",
+    "recordId": "2193",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2193: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2193",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0146",
+    "recordId": "2194",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2194: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2194",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0147",
+    "recordId": "2195",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2195: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2195",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0148",
+    "recordId": "2196",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2196: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2196",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0149",
+    "recordId": "2199",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2199: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2199",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0150",
+    "recordId": "2205",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2205: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2205",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0151",
+    "recordId": "2229",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2229: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2229",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0152",
+    "recordId": "2239",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2239: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2239",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0153",
+    "recordId": "2251",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2251: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2251",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0154",
+    "recordId": "2252",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2252: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2252",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0155",
+    "recordId": "2253",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2253: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2253",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0156",
+    "recordId": "2260",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2260: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2260",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0157",
+    "recordId": "2262",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2262: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2262",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0158",
+    "recordId": "2265",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2265: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2265",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0159",
+    "recordId": "2267",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2267: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2267",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0160",
+    "recordId": "2278",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2278: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2278",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0161",
+    "recordId": "2280",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2280: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2280",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0162",
+    "recordId": "2281",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2281: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2281",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0163",
+    "recordId": "2282",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2282: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2282",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0164",
+    "recordId": "2283",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2283: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2283",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0165",
+    "recordId": "2285",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2285: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2285",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0166",
+    "recordId": "2287",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2287: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2287",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0167",
+    "recordId": "2288",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2288: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2288",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0168",
+    "recordId": "2294",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2294: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2294",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0169",
+    "recordId": "2312",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2312: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2312",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0170",
+    "recordId": "2318",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2318: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2318",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0171",
+    "recordId": "2322",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2322: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2322",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0172",
+    "recordId": "2323",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2323: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2323",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0173",
+    "recordId": "2324",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2324: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2324",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0174",
+    "recordId": "2329",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2329: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2329",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0175",
+    "recordId": "2337",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2337: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2337",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0176",
+    "recordId": "2339",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2339: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2339",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0177",
+    "recordId": "2343",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2343: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2343",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0178",
+    "recordId": "2345",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2345: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2345",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0179",
+    "recordId": "2355",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2355: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2355",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0180",
+    "recordId": "2359",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2359: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2359",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0181",
+    "recordId": "2366",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2366: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2366",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0182",
+    "recordId": "2367",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2367: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2367",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0183",
+    "recordId": "2379",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2379: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2379",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0184",
+    "recordId": "2382",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2382: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2382",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0185",
+    "recordId": "2383",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2383: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2383",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0186",
+    "recordId": "2384",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2384: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2384",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0187",
+    "recordId": "2387",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2387: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2387",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0188",
+    "recordId": "2388",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2388: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2388",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0189",
+    "recordId": "2395",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2395: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2395",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0190",
+    "recordId": "2399",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2399: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2399",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0191",
+    "recordId": "2401",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2401: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2401",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0192",
+    "recordId": "2402",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2402: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2402",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0193",
+    "recordId": "2405",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2405: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2405",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0194",
+    "recordId": "2407",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2407: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2407",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0195",
+    "recordId": "2408",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2408: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2408",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0196",
+    "recordId": "2419",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2419: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2419",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0197",
+    "recordId": "2422",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2422: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2422",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0198",
+    "recordId": "2429",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2429: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2429",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0199",
+    "recordId": "2434",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2434: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2434",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0200",
+    "recordId": "2435",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2435: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2435",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0201",
+    "recordId": "2439",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2439: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2439",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0202",
+    "recordId": "2445",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2445: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2445",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0203",
+    "recordId": "2454",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2454: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2454",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0204",
+    "recordId": "2455",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2455: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2455",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0205",
+    "recordId": "2456",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2456: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2456",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0206",
+    "recordId": "2460",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2460: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2460",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0207",
+    "recordId": "2461",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2461: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2461",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0208",
+    "recordId": "2462",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2462: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2462",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0209",
+    "recordId": "2486",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2486: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2486",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0210",
+    "recordId": "2491",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2491: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2491",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0211",
+    "recordId": "2496",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2496: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2496",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0212",
+    "recordId": "2499",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2499: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2499",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0213",
+    "recordId": "2500",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2500: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2500",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0214",
+    "recordId": "2501",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2501: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2501",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0215",
+    "recordId": "2502",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2502: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2502",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0216",
+    "recordId": "2503",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2503: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2503",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0217",
+    "recordId": "2504",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2504: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2504",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0218",
+    "recordId": "2507",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2507: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2507",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0219",
+    "recordId": "2508",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2508: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2508",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0220",
+    "recordId": "2510",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2510: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2510",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0221",
+    "recordId": "2517",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2517: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2517",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0222",
+    "recordId": "2519",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2519: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2519",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0223",
+    "recordId": "2520",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2520: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2520",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0224",
+    "recordId": "2535",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2535: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2535",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0225",
+    "recordId": "2536",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2536: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2536",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0226",
+    "recordId": "2537",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2537: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2537",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0227",
+    "recordId": "2541",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2541: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2541",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0228",
+    "recordId": "2542",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2542: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2542",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0229",
+    "recordId": "2543",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2543: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2543",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0230",
+    "recordId": "2544",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2544: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2544",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0231",
+    "recordId": "2546",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2546: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2546",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0232",
+    "recordId": "2547",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2547: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2547",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0233",
+    "recordId": "2551",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2551: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2551",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0234",
+    "recordId": "2556",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2556: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2556",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0235",
+    "recordId": "2557",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2557: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2557",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0236",
+    "recordId": "2559",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2559: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2559",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0237",
+    "recordId": "2560",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2560: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2560",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0238",
+    "recordId": "2563",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2563: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2563",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0239",
+    "recordId": "2564",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2564: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2564",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0240",
+    "recordId": "2570",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2570: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2570",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0241",
+    "recordId": "2572",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2572: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2572",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0242",
+    "recordId": "2573",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2573: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2573",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0243",
+    "recordId": "2574",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2574: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2574",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0244",
+    "recordId": "2575",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2575: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2575",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0245",
+    "recordId": "2576",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2576: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2576",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0246",
+    "recordId": "2580",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2580: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2580",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0247",
+    "recordId": "2582",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2582: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2582",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0248",
+    "recordId": "2583",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2583: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2583",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0249",
+    "recordId": "2588",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2588: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2588",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0250",
+    "recordId": "2589",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2589: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2589",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0251",
+    "recordId": "2590",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2590: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2590",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0252",
+    "recordId": "2592",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2592: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2592",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0253",
+    "recordId": "2595",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2595: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2595",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0254",
+    "recordId": "2596",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2596: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2596",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0255",
+    "recordId": "2599",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2599: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2599",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0256",
+    "recordId": "2602",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2602: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2602",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0257",
+    "recordId": "2603",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2603: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2603",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0258",
+    "recordId": "2605",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2605: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2605",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0259",
+    "recordId": "2612",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2612: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2612",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0260",
+    "recordId": "2613",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2613: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2613",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0261",
+    "recordId": "2617",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2617: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2617",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0262",
+    "recordId": "2618",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2618: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2618",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0263",
+    "recordId": "2619",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2619: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2619",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0264",
+    "recordId": "2620",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2620: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2620",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0265",
+    "recordId": "2621",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2621: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2621",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0266",
+    "recordId": "2623",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2623: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2623",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0267",
+    "recordId": "2625",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2625: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2625",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0268",
+    "recordId": "2626",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2626: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2626",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0269",
+    "recordId": "2628",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2628: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2628",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0270",
+    "recordId": "2629",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2629: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2629",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0271",
+    "recordId": "2633",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2633: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2633",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0272",
+    "recordId": "2634",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2634: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2634",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0273",
+    "recordId": "2639",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2639: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2639",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0274",
+    "recordId": "2640",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2640: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2640",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0275",
+    "recordId": "2641",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2641: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2641",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0276",
+    "recordId": "2648",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2648: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2648",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0277",
+    "recordId": "2650",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2650: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2650",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0278",
+    "recordId": "2651",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2651: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2651",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0279",
+    "recordId": "2652",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2652: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2652",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0280",
+    "recordId": "2658",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2658: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2658",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0281",
+    "recordId": "2659",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2659: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2659",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0282",
+    "recordId": "2660",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2660: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2660",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0283",
+    "recordId": "2661",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2661: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2661",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0284",
+    "recordId": "2662",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2662: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2662",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0285",
+    "recordId": "2663",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2663: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2663",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0286",
+    "recordId": "2669",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2669: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2669",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0287",
+    "recordId": "2670",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2670: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2670",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0288",
+    "recordId": "2671",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2671: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2671",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0289",
+    "recordId": "2672",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2672: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2672",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0290",
+    "recordId": "2673",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2673: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2673",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0291",
+    "recordId": "2675",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2675: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2675",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0292",
+    "recordId": "2680",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2680: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2680",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0293",
+    "recordId": "2681",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2681: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2681",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0294",
+    "recordId": "2690",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2690: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2690",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0295",
+    "recordId": "2697",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2697: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2697",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0296",
+    "recordId": "2698",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2698: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2698",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0297",
+    "recordId": "2701",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2701: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2701",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0298",
+    "recordId": "2704",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2704: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2704",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0299",
+    "recordId": "2708",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2708: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2708",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0300",
+    "recordId": "2710",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2710: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2710",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0301",
+    "recordId": "2711",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2711: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2711",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0302",
+    "recordId": "2714",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2714: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2714",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0303",
+    "recordId": "2715",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2715: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2715",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0304",
+    "recordId": "2719",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2719: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2719",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0305",
+    "recordId": "2720",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2720: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2720",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0306",
+    "recordId": "2726",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2726: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2726",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0307",
+    "recordId": "2727",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2727: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2727",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0308",
+    "recordId": "2730",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2730: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2730",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0309",
+    "recordId": "2734",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2734: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2734",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0310",
+    "recordId": "2735",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2735: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2735",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0311",
+    "recordId": "2736",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2736: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2736",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0312",
+    "recordId": "2737",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2737: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2737",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0313",
+    "recordId": "2738",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2738: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2738",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0314",
+    "recordId": "2739",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2739: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2739",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0315",
+    "recordId": "2742",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2742: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2742",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0316",
+    "recordId": "2743",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2743: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2743",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0317",
+    "recordId": "2745",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2745: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2745",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0318",
+    "recordId": "2765",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2765: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2765",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0319",
+    "recordId": "2766",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2766: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2766",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0320",
+    "recordId": "2768",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2768: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2768",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0321",
+    "recordId": "2769",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2769: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2769",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0322",
+    "recordId": "2774",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2774: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2774",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0323",
+    "recordId": "2775",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2775: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2775",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0324",
+    "recordId": "2776",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2776: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2776",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0325",
+    "recordId": "2777",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2777: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2777",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0326",
+    "recordId": "2778",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2778: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2778",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0327",
+    "recordId": "2782",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2782: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2782",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0328",
+    "recordId": "2783",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2783: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2783",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0329",
+    "recordId": "2784",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2784: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2784",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0330",
+    "recordId": "2785",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2785: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2785",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0331",
+    "recordId": "2786",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2786: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2786",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0332",
+    "recordId": "2787",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2787: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2787",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0333",
+    "recordId": "2789",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2789: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2789",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0334",
+    "recordId": "2790",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2790: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2790",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0335",
+    "recordId": "2791",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2791: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2791",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0336",
+    "recordId": "2792",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2792: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2792",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0337",
+    "recordId": "2793",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2793: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2793",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0338",
+    "recordId": "2794",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2794: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2794",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0339",
+    "recordId": "2795",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2795: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2795",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0340",
+    "recordId": "2796",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2796: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2796",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0341",
+    "recordId": "2797",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2797: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2797",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0342",
+    "recordId": "2798",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2798: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2798",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0343",
+    "recordId": "2799",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2799: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2799",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0344",
+    "recordId": "2800",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2800: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2800",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0345",
+    "recordId": "2801",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2801: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2801",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0346",
+    "recordId": "2802",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2802: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2802",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0347",
+    "recordId": "2803",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2803: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2803",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0348",
+    "recordId": "2804",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2804: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2804",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0349",
+    "recordId": "2805",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2805: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2805",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0350",
+    "recordId": "2806",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2806: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2806",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0351",
+    "recordId": "2807",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2807: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2807",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0352",
+    "recordId": "2808",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2808: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2808",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0353",
+    "recordId": "2809",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2809: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2809",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0354",
+    "recordId": "2810",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2810: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2810",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0355",
+    "recordId": "2811",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2811: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2811",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0356",
+    "recordId": "2812",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2812: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2812",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0357",
+    "recordId": "2813",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2813: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2813",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0358",
+    "recordId": "2814",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2814: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2814",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0359",
+    "recordId": "2815",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2815: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2815",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0360",
+    "recordId": "2816",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2816: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2816",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0361",
+    "recordId": "2817",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2817: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2817",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0362",
+    "recordId": "2818",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2818: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2818",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0363",
+    "recordId": "2819",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2819: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2819",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0364",
+    "recordId": "2820",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2820: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2820",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0365",
+    "recordId": "2821",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2821: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2821",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0366",
+    "recordId": "2822",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2822: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2822",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0367",
+    "recordId": "2823",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2823: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2823",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0368",
+    "recordId": "2824",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2824: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2824",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0369",
+    "recordId": "2825",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2825: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2825",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0370",
+    "recordId": "2826",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2826: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2826",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0371",
+    "recordId": "2827",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2827: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2827",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0372",
+    "recordId": "2828",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2828: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2828",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0373",
+    "recordId": "2829",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2829: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2829",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0374",
+    "recordId": "2830",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2830: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2830",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0375",
+    "recordId": "2831",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2831: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2831",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0376",
+    "recordId": "2832",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2832: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2832",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0377",
+    "recordId": "2833",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2833: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2833",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0378",
+    "recordId": "2834",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2834: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2834",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0379",
+    "recordId": "2835",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2835: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2835",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0380",
+    "recordId": "2836",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2836: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2836",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0381",
+    "recordId": "2837",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2837: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2837",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0382",
+    "recordId": "2838",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2838: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2838",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0383",
+    "recordId": "2839",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2839: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2839",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0384",
+    "recordId": "2840",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2840: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2840",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0385",
+    "recordId": "2841",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2841: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2841",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0386",
+    "recordId": "2842",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2842: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2842",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0387",
+    "recordId": "2843",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2843: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2843",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0388",
+    "recordId": "2844",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2844: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2844",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0389",
+    "recordId": "2845",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2845: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2845",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0390",
+    "recordId": "2846",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2846: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2846",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0391",
+    "recordId": "2847",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2847: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2847",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0392",
+    "recordId": "2848",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2848: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2848",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0393",
+    "recordId": "2849",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2849: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2849",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0394",
+    "recordId": "2850",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2850: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2850",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0395",
+    "recordId": "2851",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2851: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2851",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0396",
+    "recordId": "2852",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2852: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2852",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0397",
+    "recordId": "2853",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2853: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2853",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0398",
+    "recordId": "2854",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2854: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2854",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0399",
+    "recordId": "2855",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2855: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2855",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0400",
+    "recordId": "2856",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2856: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2856",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0401",
+    "recordId": "2857",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2857: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2857",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0402",
+    "recordId": "2858",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2858: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2858",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0403",
+    "recordId": "2859",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2859: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2859",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0404",
+    "recordId": "2860",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2860: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2860",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0405",
+    "recordId": "2861",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2861: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2861",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0406",
+    "recordId": "2862",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2862: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2862",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0407",
+    "recordId": "2863",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2863: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2863",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0408",
+    "recordId": "2864",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2864: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2864",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0409",
+    "recordId": "2865",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2865: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2865",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0410",
+    "recordId": "2866",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2866: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2866",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0411",
+    "recordId": "2867",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2867: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2867",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0412",
+    "recordId": "2868",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2868: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2868",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0413",
+    "recordId": "2869",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2869: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2869",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0414",
+    "recordId": "2870",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2870: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2870",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0415",
+    "recordId": "2871",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2871: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2871",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0416",
+    "recordId": "2872",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2872: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2872",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0417",
+    "recordId": "2873",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2873: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2873",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0418",
+    "recordId": "2874",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2874: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2874",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0419",
+    "recordId": "2875",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2875: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2875",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0420",
+    "recordId": "2876",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2876: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2876",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0421",
+    "recordId": "2877",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2877: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2877",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0422",
+    "recordId": "2878",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2878: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2878",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0423",
+    "recordId": "2879",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2879: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2879",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0424",
+    "recordId": "2880",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2880: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2880",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0425",
+    "recordId": "2881",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2881: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2881",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0426",
+    "recordId": "2882",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2882: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2882",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0427",
+    "recordId": "2883",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2883: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2883",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0428",
+    "recordId": "2884",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2884: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2884",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0429",
+    "recordId": "2885",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2885: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2885",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0430",
+    "recordId": "2886",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2886: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2886",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0431",
+    "recordId": "2887",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2887: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2887",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0432",
+    "recordId": "2888",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2888: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2888",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0433",
+    "recordId": "2889",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2889: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2889",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0434",
+    "recordId": "2890",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2890: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2890",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0435",
+    "recordId": "2891",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2891: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2891",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0436",
+    "recordId": "2892",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2892: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2892",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0437",
+    "recordId": "2893",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2893: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2893",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0438",
+    "recordId": "2894",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2894: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2894",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0439",
+    "recordId": "2895",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2895: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2895",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0440",
+    "recordId": "2896",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2896: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2896",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0441",
+    "recordId": "2897",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2897: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2897",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0442",
+    "recordId": "2898",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2898: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2898",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0443",
+    "recordId": "2899",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2899: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2899",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0444",
+    "recordId": "2900",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 2900: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "2900",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0445",
+    "recordId": "8087",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 8087: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "8087",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0446",
+    "recordId": "8196",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 8196: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "8196",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0447",
+    "recordId": "8197",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 8197: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "8197",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0448",
+    "recordId": "9010",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9010: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9010",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0449",
+    "recordId": "9011",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9011: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9011",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0450",
+    "recordId": "9027",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9027: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9027",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0451",
+    "recordId": "9029",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9029: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9029",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0452",
+    "recordId": "9034",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9034: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9034",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0453",
+    "recordId": "9037",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9037: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9037",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0454",
+    "recordId": "9042",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9042: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9042",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0455",
+    "recordId": "9043",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9043: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9043",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0456",
+    "recordId": "9044",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9044: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9044",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0457",
+    "recordId": "9045",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9045: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9045",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0458",
+    "recordId": "9046",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9046: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9046",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0459",
+    "recordId": "9047",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9047: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9047",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0460",
+    "recordId": "9048",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9048: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9048",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0461",
+    "recordId": "9049",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9049: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9049",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0462",
+    "recordId": "9050",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9050: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9050",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0463",
+    "recordId": "9051",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9051: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9051",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0464",
+    "recordId": "9052",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9052: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9052",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0465",
+    "recordId": "9053",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9053: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9053",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0466",
+    "recordId": "9054",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9054: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9054",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0467",
+    "recordId": "9055",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9055: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9055",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0468",
+    "recordId": "9056",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9056: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9056",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0469",
+    "recordId": "9057",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9057: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9057",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0470",
+    "recordId": "9058",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9058: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9058",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0471",
+    "recordId": "9059",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9059: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9059",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0472",
+    "recordId": "9060",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9060: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9060",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0473",
+    "recordId": "9061",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9061: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9061",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0474",
+    "recordId": "9062",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9062: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9062",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0475",
+    "recordId": "9063",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9063: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9063",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0476",
+    "recordId": "9064",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9064: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9064",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0477",
+    "recordId": "9065",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9065: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9065",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0478",
+    "recordId": "9066",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9066: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9066",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0479",
+    "recordId": "9067",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9067: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9067",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  },
+  {
+    "reviewId": "REV-MRP-0480",
+    "recordId": "9068",
+    "issueType": "INVALID_MRP",
+    "description": "Invalid or negative MRP found for drug code 9068: 0.0",
+    "sourceFiles": [
+      "KA_jan_aushadhi_medicines_source.csv"
+    ],
+    "values": {
+      "drugCode": "9068",
+      "mrp": 0.0
+    },
+    "recommendedAction": "Verify price from official current PMBI MRP list"
+  }
+]

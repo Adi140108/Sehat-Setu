@@ -1,7 +1,7 @@
 import type { LanguageCode } from '../../types';
 
 // Map Sehat Setu language codes to Web Speech BCP 47 locale codes
-export const LANG_BCP47_MAP: Record<LanguageCode, string> = {
+export const LANG_BCP47_MAP: Partial<Record<LanguageCode, string>> = {
   en: 'en-IN',
   hi: 'hi-IN',
   kn: 'kn-IN',

@@ -1,0 +1,208 @@
+{
+  "summary": {
+    "total_test_cases": 24,
+    "accuracy": 0.8333,
+    "clarification_rate": 0.0417,
+    "unknown_rate": 0.0417,
+    "emergency_metrics": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "accuracy": 1.0
+    }
+  },
+  "details": [
+    {
+      "text": "ede novu",
+      "expected": "EMERGENCY",
+      "predicted": "EMERGENCY",
+      "confidence": 0.99,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "I have severe chest pain and breathlessness",
+      "expected": "EMERGENCY",
+      "predicted": "EMERGENCY",
+      "confidence": 0.99,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "saans lene me dikkat",
+      "expected": "EMERGENCY",
+      "predicted": "EMERGENCY",
+      "confidence": 0.99,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "hospital near me",
+      "expected": "FIND_NEARBY_FACILITY",
+      "predicted": "FIND_NEARBY_FACILITY",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "paas mein sarkari hospital",
+      "expected": "FIND_GOVERNMENT_HOSPITAL",
+      "predicted": "FIND_NEARBY_FACILITY",
+      "confidence": 1.0,
+      "correct": false,
+      "clarify": false
+    },
+    {
+      "text": "government clinic in kolar",
+      "expected": "FIND_GOVERNMENT_HOSPITAL",
+      "predicted": "FIND_NEARBY_FACILITY",
+      "confidence": 0.92,
+      "correct": false,
+      "clarify": false
+    },
+    {
+      "text": "nearest phc center",
+      "expected": "FIND_PHC",
+      "predicted": "FIND_PHC",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "\u0cb8\u0cae\u0cc1\u0ca6\u0cbe\u0caf \u0c86\u0cb0\u0ccb\u0c97\u0ccd\u0caf \u0c95\u0cc7\u0c82\u0ca6\u0ccd\u0cb0 \u0c8e\u0cb2\u0ccd\u0cb2\u0cbf\u0ca6\u0cc6",
+      "expected": "FIND_CHC",
+      "predicted": "FIND_CHC",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "mere area mein ayushman hospital kaha hai",
+      "expected": "FIND_PMJAY_FACILITY",
+      "predicted": "FIND_PMJAY_FACILITY",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "I need Ayushman card hospital in Bengaluru",
+      "expected": "FIND_PMJAY_FACILITY",
+      "predicted": "FIND_PMJAY_FACILITY",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "\u0caf\u0ccb\u0c9c\u0ca8\u0cc6 \u0cb5\u0cbf\u0cb5\u0cb0\u0c97\u0cb3\u0cc1 \u0cac\u0cc7\u0c95\u0cc1",
+      "expected": "FIND_HEALTH_SCHEME",
+      "predicted": "HUMAN_SUPPORT",
+      "confidence": 1.0,
+      "correct": false,
+      "clarify": false
+    },
+    {
+      "text": "ayushman card benefits details",
+      "expected": "CHECK_SCHEME_INFORMATION",
+      "predicted": "CHECK_SCHEME_INFORMATION",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "what documents are required for health scheme",
+      "expected": "DOCUMENT_REQUIREMENTS",
+      "predicted": "DOCUMENT_REQUIREMENTS",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "hospital timings and contact",
+      "expected": "FACILITY_INFORMATION",
+      "predicted": "FACILITY_INFORMATION",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "start profile setup",
+      "expected": "START_HEALTHCARE_JOURNEY",
+      "predicted": "START_HEALTHCARE_JOURNEY",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "continue onboarding",
+      "expected": "RESUME_HEALTHCARE_JOURNEY",
+      "predicted": "RESUME_HEALTHCARE_JOURNEY",
+      "confidence": 0.8,
+      "correct": true,
+      "clarify": true
+    },
+    {
+      "text": "talk to asha worker",
+      "expected": "HUMAN_SUPPORT",
+      "predicted": "HUMAN_SUPPORT",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "doctor is not available in hospital",
+      "expected": "FACILITY_PROBLEM",
+      "predicted": "FACILITY_PROBLEM",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "search medicine paracetamol",
+      "expected": "SEARCH_MEDICINE",
+      "predicted": "SEARCH_MEDICINE",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "dolo 650 generic alternate cost",
+      "expected": "FIND_JANAUSHADHI_ALTERNATIVE",
+      "predicted": "FIND_GENERIC_PRODUCT",
+      "confidence": 1.0,
+      "correct": false,
+      "clarify": false
+    },
+    {
+      "text": "nearest jan aushadhi kendra shop",
+      "expected": "FIND_JANAUSHADHI_KENDRA",
+      "predicted": "FIND_JANAUSHADHI_KENDRA",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "namaste hello",
+      "expected": "GREETING",
+      "predicted": "GREETING",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "guide me how to use this app",
+      "expected": "HELP",
+      "predicted": "HELP",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    },
+    {
+      "text": "random query xyz abc",
+      "expected": "UNKNOWN",
+      "predicted": "UNKNOWN",
+      "confidence": 1.0,
+      "correct": true,
+      "clarify": false
+    }
+  ]
+}

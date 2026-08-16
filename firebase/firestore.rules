@@ -6,57 +6,163 @@ service cloud.firestore {
     function isAuthenticated() {
       return request.auth != null;
     }
-    
-    // Helper function to check user role
-    function hasRole(role) {
-      return isAuthenticated() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == role;
+
+    // Helper function to check if user is accessing their own document
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
     }
-    
-    // User profile rule: Citizens can only read and write their own profile
+
+    // Helper function to check if user possesses admin custom claims
+    function isAdmin() {
+      return isAuthenticated() && (request.auth.token.admin == true || request.auth.token.role == 'admin');
+    }
+
+    // User profile: User can read/write their own profile. Admin can read/write all.
     match /users/{userId} {
-      allow read, write: if isAuthenticated() && request.auth.uid == userId;
-      allow read, write: if hasRole('admin');
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && request.auth.uid == userId
+                    && request.resource.data.role == 'citizen' // Prevent self-assigning non-citizen roles
+                    && request.resource.data.uid == request.auth.uid;
+      allow update: if isOwner(userId)
+                    && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'uid', 'createdAt'])) // Cannot change role, uid, or createdAt
+                    && (request.resource.data.uid == request.auth.uid);
+      allow delete: if isOwner(userId) || isAdmin();
+
+      // Subcollections under users/{userId} for user-scoped rules
+      match /family/{familyMemberId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /savedFacilities/{facilityId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /savedProducts/{productId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /documents/{documentId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /sehatPass/{passId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /preferences/{preferenceId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /healthcareJourneys/{journeyId} {
+        allow read, write: if isOwner(userId);
+      }
     }
-    
-    // Household Profiles: Strict privacy, owner only
-    match /profiles/{userId} {
-      allow read, write: if isAuthenticated() && request.auth.uid == userId;
+
+    // User private data: Only the user can access their own private data
+    match /userPrivate/{userId} {
+      allow read, write: if isOwner(userId);
     }
-    
-    // Facilities: Public read access for all citizens, write access restricted to admins
+
+    // User preferences: Only the user can access their own preferences
+    match /userPreferences/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // Family records: Only the owner (the user who created it) can read/write their own family records
+    match /families/{familyId} {
+      allow read: if isAuthenticated() && (resource.data.ownerUid == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && request.resource.data.ownerUid == request.auth.uid;
+      allow update: if isAuthenticated() && resource.data.ownerUid == request.auth.uid && request.resource.data.ownerUid == request.auth.uid;
+      allow delete: if isAuthenticated() && resource.data.ownerUid == request.auth.uid;
+    }
+
+    // Sehat Pass: Only the owner can access their own pass
+    match /sehatPasses/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create, update: if isOwner(userId) && request.resource.data.uid == request.auth.uid;
+      allow delete: if isOwner(userId);
+    }
+
+    // Auth audit: Only the authenticated user can create their own audit record, read restricted to owner and admin
+    match /authAudit/{eventId} {
+      allow create: if isAuthenticated() && request.resource.data.uid == request.auth.uid;
+      allow read: if isAuthenticated() && (resource.data.uid == request.auth.uid || isAdmin());
+    }
+
+    // Saved facilities: Owner read/write
+    match /savedFacilities/{savedId} {
+      allow read, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create, update: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Healthcare Journeys: Owner read/write, Admin read/update/delete
+    match /healthcareJourneys/{journeyId} {
+      allow read, delete, update: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Support Requests: Owner read/write, Admin read/update/delete
+    match /supportRequests/{requestId} {
+      allow read, delete, update: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Government/Static datasets: Public read access, Admin write access
     match /facilities/{facilityId} {
       allow read: if true;
-      allow write: if hasRole('admin');
+      allow write: if isAdmin();
     }
-    
-    // Health Schemes: Public read access, admin write access
+
     match /schemes/{schemeId} {
       allow read: if true;
-      allow write: if hasRole('admin');
+      allow write: if isAdmin();
     }
-    
-    // Support Requests: Citizens create/read own; Volunteers & Admins read/update all
-    match /supportRequests/{requestId} {
-      allow create: if true;
-      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || hasRole('volunteer') || hasRole('admin'));
-      allow update: if hasRole('volunteer') || hasRole('admin');
+
+    // Jan Aushadhi Catalogs: Public read, Admin write
+    match /janaushadhiProducts/{productId} {
+      allow read: if true;
+      allow write: if isAdmin();
     }
-    
-    // Referrals & Follow-ups: User specific access
-    match /referrals/{referralId} {
-      allow create, read, update: if isAuthenticated() && resource.data.userId == request.auth.uid;
-      allow read: if hasRole('admin');
+
+    match /janaushadhiKendras/{kendraId} {
+      allow read: if true;
+      allow write: if isAdmin();
     }
-    
-    // Reminders: Strict user owner access
-    match /reminders/{reminderId} {
-      allow read, write: if isAuthenticated() && resource.data.userId == request.auth.uid;
+
+    // Saved Medicines: Owner read/write
+    match /savedMedicines/{savedId} {
+      allow read, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+      allow create, update: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
     }
-    
-    // Analytics: Aggregated read for Admins only
-    match /analytics/{docId} {
-      allow read: if hasRole('admin');
-      allow write: if hasRole('admin');
+
+    // Sehat Pass Verification Lookup Tokens: Public read, owner write
+    match /sehatPassTokens/{tokenId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Analytics Events: Citizens can write/create, Admins can read/write
+    match /analyticsEvents/{eventId} {
+      allow create: if true; // Allow anonymous logging of access router searches
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Feedback: Citizens can create/read their own, Admins can read/write all
+    match /feedback/{feedbackId} {
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow update, delete: if isAdmin();
+    }
+
+    // Facility Reports: Authenticated users can create, Admins can read/write
+    match /facilityReports/{reportId} {
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // System Health: Admin read/write only
+    match /systemHealth/{docId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Admin Logs: Admin read/write only
+    match /adminLogs/{logId} {
+      allow read, write: if isAdmin();
     }
   }
 }

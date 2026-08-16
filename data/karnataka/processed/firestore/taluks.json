@@ -1,0 +1,1780 @@
+[
+  {
+    "id": "KA-TAL-3BD2AF",
+    "name": "Badami",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D1FEEE",
+    "name": "Bagalkote",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D146D4",
+    "name": "Bilagi",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C125C1",
+    "name": "Hungund",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7A9663",
+    "name": "Jamakhandi",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A3894B",
+    "name": "Mudhol",
+    "districtId": "KA-DIST-E353E1",
+    "districtName": "Bagalkote",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-22365C",
+    "name": "Ballari",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F4266E",
+    "name": "Bellary",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5961C7",
+    "name": "Kampli",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-969A08",
+    "name": "Kurugodu",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-565615",
+    "name": "Sandur",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4E6B97",
+    "name": "Siruguppa",
+    "districtId": "KA-DIST-1E4157",
+    "districtName": "Ballari",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-195141",
+    "name": "0",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-066D96",
+    "name": "Arkere",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D2E4BE",
+    "name": "B",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3632E5",
+    "name": "Banaswadi",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2AE7B2",
+    "name": "Basaveshwaranagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-577919",
+    "name": "Bengaluru Urban",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-82E3AB",
+    "name": "Chandra Layout",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-97AC29",
+    "name": "Chikkasandra",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-698B5B",
+    "name": "Ganesha Block",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2F6688",
+    "name": "Indiranagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5C14CE",
+    "name": "Jayanagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-43F955",
+    "name": "Kanakpura",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5C317D",
+    "name": "Konankunte",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-748F4D",
+    "name": "Koramangala",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-E01EB7",
+    "name": "Kumara Park (W)",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-264E73",
+    "name": "Malleswaram",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-BF1721",
+    "name": "Marathahalli",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-309C75",
+    "name": "Nagarbhavi",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-0D6C81",
+    "name": "Nandini Layout",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F2DA8B",
+    "name": "Padmanabha Nagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D96C93",
+    "name": "R.T.Nagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F315A5",
+    "name": "Rajajinagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-51CA69",
+    "name": "Rajarajeswarinagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DE0C15",
+    "name": "Shanthinagar",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3E5545",
+    "name": "Singasandra",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DDA579",
+    "name": "Urban",
+    "districtId": "KA-DIST-2D02BD",
+    "districtName": "Bengaluru Urban",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AFFF2A",
+    "name": "0",
+    "districtId": "KA-DIST-49BFEA",
+    "districtName": "Bengaluru Rural",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2C8EFE",
+    "name": "0",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-380BDB",
+    "name": "Athani",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-87C4E5",
+    "name": "Bailhongal",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-80A3BD",
+    "name": "Belagavi",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D47495",
+    "name": "Chikodi",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4F3BE1",
+    "name": "Gokak",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4C05BA",
+    "name": "Hukkeri",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7F4E0D",
+    "name": "Khanapur",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A93E2F",
+    "name": "Raibag",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EAA27E",
+    "name": "Ramadurga",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-316D94",
+    "name": "Savadatti",
+    "districtId": "KA-DIST-932198",
+    "districtName": "Belagavi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4351D9",
+    "name": "0",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9F237E",
+    "name": "Aurad",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F88565",
+    "name": "B",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-119491",
+    "name": "Basavakalyan",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-E44579",
+    "name": "Bhalki",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A351B5",
+    "name": "Bidar",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-369345",
+    "name": "C",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B08E81",
+    "name": "Chitguppa",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-91A060",
+    "name": "H",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CEA7A4",
+    "name": "Humnabad",
+    "districtId": "KA-DIST-3FB4E8",
+    "districtName": "Bidar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-E554E9",
+    "name": "0",
+    "districtId": "KA-DIST-923600",
+    "districtName": "Chikkamagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C066D7",
+    "name": "0",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9F798E",
+    "name": "Challakere",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5F17ED",
+    "name": "Chitradurga",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-363431",
+    "name": "Hiriyuru",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C90F27",
+    "name": "Holalkere",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-735A89",
+    "name": "Hosadurga",
+    "districtId": "KA-DIST-E3870E",
+    "districtName": "Chitradurga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-216621",
+    "name": "0",
+    "districtId": "KA-DIST-269065",
+    "districtName": "Dakshina Kannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4E73DC",
+    "name": "0",
+    "districtId": "KA-DIST-9DE4EF",
+    "districtName": "Davangere",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5EB94A",
+    "name": "0",
+    "districtId": "KA-DIST-1FACF2",
+    "districtName": "Dharwad",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6E4A35",
+    "name": "0",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8C2BF5",
+    "name": "Gadag",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F498F1",
+    "name": "Mundargi",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3E7D41",
+    "name": "Nargund",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F7FC6B",
+    "name": "Ron",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-82522C",
+    "name": "Shirahatti",
+    "districtId": "KA-DIST-71A50C",
+    "districtName": "Gadag",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-234ED3",
+    "name": "0",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2F416B",
+    "name": "Alur",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-673EAA",
+    "name": "Arakalgud",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7C83FE",
+    "name": "Arasikere",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-BB5621",
+    "name": "Belur",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-0ED408",
+    "name": "Channaraya",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-FED951",
+    "name": "Hassan",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B84912",
+    "name": "Holenarasip",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6AC55E",
+    "name": "Sakleshpura",
+    "districtId": "KA-DIST-E9149D",
+    "districtName": "Hassan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9973B1",
+    "name": "0",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-538300",
+    "name": "Byadagi",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7D4FE4",
+    "name": "Hangal",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-51BC68",
+    "name": "Haveri",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-740746",
+    "name": "Hirekerur",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-FC4A79",
+    "name": "Ranebennur",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-FFD4FA",
+    "name": "Savanur",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9E01C6",
+    "name": "Shiggaon",
+    "districtId": "KA-DIST-C1D211",
+    "districtName": "Haveri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-ED2237",
+    "name": "0",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7750C1",
+    "name": "Afzalapur",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-247964",
+    "name": "Aland",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AEEE78",
+    "name": "Chincholli",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-67E73C",
+    "name": "Chittapur",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-85DC30",
+    "name": "Jewargi",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-672F09",
+    "name": "Kalaburagi",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DBFCC6",
+    "name": "Kalaburgi",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3AECC8",
+    "name": "Sedam",
+    "districtId": "KA-DIST-3C2D5D",
+    "districtName": "Kalaburagi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D68B71",
+    "name": "0",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F3FBF1",
+    "name": "Bangarapet",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EC7438",
+    "name": "K",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A4B918",
+    "name": "Kolar",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-165EF7",
+    "name": "Malur",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3B112A",
+    "name": "Mulabagal",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-99AF86",
+    "name": "Srinivasapura",
+    "districtId": "KA-DIST-F229CE",
+    "districtName": "Kolar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-17F1C5",
+    "name": "0",
+    "districtId": "KA-DIST-A02853",
+    "districtName": "Koppal",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B43BFB",
+    "name": "0",
+    "districtId": "KA-DIST-A61604",
+    "districtName": "Mandya",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C9189A",
+    "name": "Malavalli",
+    "districtId": "KA-DIST-A61604",
+    "districtName": "Mandya",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8867EB",
+    "name": "0",
+    "districtId": "KA-DIST-A3487F",
+    "districtName": "Mysuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-BA6EE2",
+    "name": "Mysuru",
+    "districtId": "KA-DIST-A3487F",
+    "districtName": "Mysuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-044BD0",
+    "name": "0",
+    "districtId": "KA-DIST-961082",
+    "districtName": "Raichur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AE0B45",
+    "name": "Raichur",
+    "districtId": "KA-DIST-961082",
+    "districtName": "Raichur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F84A50",
+    "name": "0",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-843371",
+    "name": "Channapatna",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-89CB0A",
+    "name": "Harohalli",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-42669A",
+    "name": "Kanakapura",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D28310",
+    "name": "Magadi",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-28997E",
+    "name": "Ramanagara",
+    "districtId": "KA-DIST-90414D",
+    "districtName": "Ramanagara",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-72EDA8",
+    "name": "0",
+    "districtId": "KA-DIST-8C8C7A",
+    "districtName": "Shivamogga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-07F900",
+    "name": "Shivamogga",
+    "districtId": "KA-DIST-8C8C7A",
+    "districtName": "Shivamogga",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-709165",
+    "name": "0",
+    "districtId": "KA-DIST-1AFD19",
+    "districtName": "Tumakuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-839CA7",
+    "name": "0",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-317AF0",
+    "name": "Bramhavara",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-92C595",
+    "name": "Byndoor",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-0228F3",
+    "name": "Hebri",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7D159F",
+    "name": "Karkala",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-116431",
+    "name": "Kaup",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-540728",
+    "name": "Kundapura",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8851E0",
+    "name": "Udupi",
+    "districtId": "KA-DIST-948250",
+    "districtName": "Udupi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-49A4B1",
+    "name": "0",
+    "districtId": "KA-DIST-8F1C0E",
+    "districtName": "Uttara Kannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-282120",
+    "name": "0",
+    "districtId": "KA-DIST-0D4BBC",
+    "districtName": "Vijayapura",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-947C49",
+    "name": "0",
+    "districtId": "KA-DIST-2CB08C",
+    "districtName": "Chamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-FB0E73",
+    "name": "0",
+    "districtId": "KA-DIST-EF01F2",
+    "districtName": "Chikkaballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B68A1F",
+    "name": "0",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6EB8DD",
+    "name": "Kushalnagar",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AE773E",
+    "name": "Madikeri",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C0071B",
+    "name": "Ponnampet",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5112A7",
+    "name": "Somwarpet",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-65FE06",
+    "name": "Virajpet",
+    "districtId": "KA-DIST-26A913",
+    "districtName": "Kodagu",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-90A6A3",
+    "name": "0",
+    "districtId": "KA-DIST-44D813",
+    "districtName": "Yadgir",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A8E002",
+    "name": "0",
+    "districtId": "KA-DIST-4043E2",
+    "districtName": "Bagalkot",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CE018F",
+    "name": "Rural",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-674382",
+    "name": "Ruraldevanahalli",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-56103A",
+    "name": "Ruraldoddabalapur",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2147A9",
+    "name": "Ruralhosakote",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-561EDD",
+    "name": "Ruralnelamangala",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-E45466",
+    "name": "Southramanagara",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D400CA",
+    "name": "Urban",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2B3819",
+    "name": "Urbananekal",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5E8F4F",
+    "name": "Urbanbengaluru",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6F87BD",
+    "name": "Urbandistrict",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C5F76C",
+    "name": "Urbaneast",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-063CC4",
+    "name": "Urbannorth",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B4A634",
+    "name": "Urbansouth",
+    "districtId": "KA-DIST-9DB26D",
+    "districtName": "Bengaluru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-78100F",
+    "name": "Chc",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5DD525",
+    "name": "Dho",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2CF610",
+    "name": "Dlo",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4FF7FD",
+    "name": "Dsi",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-82C087",
+    "name": "Dto",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-30E930",
+    "name": "Dvbdco",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-88FF37",
+    "name": "Mch",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EB3AB8",
+    "name": "Mthu",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5971DB",
+    "name": "Phc",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F03DAF",
+    "name": "Tho",
+    "districtId": "KA-DIST-1EF767",
+    "districtName": "Chamarajanagarchamarajanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-103A0D",
+    "name": "Chc",
+    "districtId": "KA-DIST-FBDF50",
+    "districtName": "Chamarajanagargundlupet",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CC9133",
+    "name": "Gh",
+    "districtId": "KA-DIST-FBDF50",
+    "districtName": "Chamarajanagargundlupet",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-864567",
+    "name": "Mch",
+    "districtId": "KA-DIST-FBDF50",
+    "districtName": "Chamarajanagargundlupet",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-00EFF8",
+    "name": "Phc",
+    "districtId": "KA-DIST-FBDF50",
+    "districtName": "Chamarajanagargundlupet",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4DF4F7",
+    "name": "Tho",
+    "districtId": "KA-DIST-FBDF50",
+    "districtName": "Chamarajanagargundlupet",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DB8C37",
+    "name": "Dh",
+    "districtId": "KA-DIST-00BE3D",
+    "districtName": "Chamarajanagarkollegala",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8BB41E",
+    "name": "Mch",
+    "districtId": "KA-DIST-00BE3D",
+    "districtName": "Chamarajanagarkollegala",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-0995D6",
+    "name": "Mthu",
+    "districtId": "KA-DIST-00BE3D",
+    "districtName": "Chamarajanagarkollegala",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D06919",
+    "name": "Phc",
+    "districtId": "KA-DIST-00BE3D",
+    "districtName": "Chamarajanagarkollegala",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5E60F3",
+    "name": "Tho",
+    "districtId": "KA-DIST-00BE3D",
+    "districtName": "Chamarajanagarkollegala",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A78347",
+    "name": "Gh",
+    "districtId": "KA-DIST-150CF8",
+    "districtName": "Chamarajanagaryalanduru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6394E6",
+    "name": "Phc",
+    "districtId": "KA-DIST-150CF8",
+    "districtName": "Chamarajanagaryalanduru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9F4F08",
+    "name": "Tho",
+    "districtId": "KA-DIST-150CF8",
+    "districtName": "Chamarajanagaryalanduru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-47F502",
+    "name": "Chc",
+    "districtId": "KA-DIST-CBE675",
+    "districtName": "Chamarajanagarhanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-BDD346",
+    "name": "Mthu",
+    "districtId": "KA-DIST-CBE675",
+    "districtName": "Chamarajanagarhanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-975F18",
+    "name": "Phc",
+    "districtId": "KA-DIST-CBE675",
+    "districtName": "Chamarajanagarhanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CF25F4",
+    "name": "Dho",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6B2F44",
+    "name": "Dlo",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6242EF",
+    "name": "Dmo",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-B5FF7F",
+    "name": "Dsu",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CB2426",
+    "name": "Dto",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-87EA17",
+    "name": "Phc",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AD441B",
+    "name": "Tho",
+    "districtId": "KA-DIST-25BD74",
+    "districtName": "Chikkaballapurchickballapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A08154",
+    "name": "Gh",
+    "districtId": "KA-DIST-2BC7AD",
+    "districtName": "Chikkaballapursidlaghatta",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-752F21",
+    "name": "Phc",
+    "districtId": "KA-DIST-2BC7AD",
+    "districtName": "Chikkaballapursidlaghatta",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A65A35",
+    "name": "Chc",
+    "districtId": "KA-DIST-ADE92E",
+    "districtName": "Chikkaballapurchintamani",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-202430",
+    "name": "Gh",
+    "districtId": "KA-DIST-ADE92E",
+    "districtName": "Chikkaballapurchintamani",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CD1832",
+    "name": "Phc",
+    "districtId": "KA-DIST-ADE92E",
+    "districtName": "Chikkaballapurchintamani",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DABD52",
+    "name": "Tho",
+    "districtId": "KA-DIST-ADE92E",
+    "districtName": "Chikkaballapurchintamani",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-253159",
+    "name": "Gh",
+    "districtId": "KA-DIST-4E4627",
+    "districtName": "Chikkaballapurgowribidanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-18026A",
+    "name": "Phc",
+    "districtId": "KA-DIST-4E4627",
+    "districtName": "Chikkaballapurgowribidanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7EDD0A",
+    "name": "Tho",
+    "districtId": "KA-DIST-4E4627",
+    "districtName": "Chikkaballapurgowribidanuru",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2FE1A2",
+    "name": "Chc",
+    "districtId": "KA-DIST-426032",
+    "districtName": "Chikkaballapurbagepalli",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-68D9AE",
+    "name": "Gh",
+    "districtId": "KA-DIST-426032",
+    "districtName": "Chikkaballapurbagepalli",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EA7CCF",
+    "name": "Phc",
+    "districtId": "KA-DIST-426032",
+    "districtName": "Chikkaballapurbagepalli",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-DCEA09",
+    "name": "Tho",
+    "districtId": "KA-DIST-426032",
+    "districtName": "Chikkaballapurbagepalli",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A689CA",
+    "name": "Gh",
+    "districtId": "KA-DIST-45D64F",
+    "districtName": "Chikkaballapurgudibande",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-638CA3",
+    "name": "Phc",
+    "districtId": "KA-DIST-45D64F",
+    "districtName": "Chikkaballapurgudibande",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-678AEB",
+    "name": "Tho",
+    "districtId": "KA-DIST-45D64F",
+    "districtName": "Chikkaballapurgudibande",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-316286",
+    "name": "Athani",
+    "districtId": "KA-DIST-B81079",
+    "districtName": "Chikkodi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-03C3E6",
+    "name": "Chikodi",
+    "districtId": "KA-DIST-B81079",
+    "districtName": "Chikkodi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2C654B",
+    "name": "Gokak",
+    "districtId": "KA-DIST-B81079",
+    "districtName": "Chikkodi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2C466C",
+    "name": "Hukkeri",
+    "districtId": "KA-DIST-B81079",
+    "districtName": "Chikkodi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CD7FE4",
+    "name": "Raibag",
+    "districtId": "KA-DIST-B81079",
+    "districtName": "Chikkodi",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-77DE1A",
+    "name": "Chikmagalur",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5AE7AA",
+    "name": "Kadur",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AD6664",
+    "name": "Koppa",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-16826C",
+    "name": "Mudigere",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5B342C",
+    "name": "Narasimharajapura",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-83C61E",
+    "name": "Sringeri",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-9192E2",
+    "name": "Tarikere",
+    "districtId": "KA-DIST-8F8C47",
+    "districtName": "Chikmagalur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C54DDD",
+    "name": "Kannada",
+    "districtId": "KA-DIST-83BAF6",
+    "districtName": "Dakshina",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F0223B",
+    "name": "Kannadabantwal",
+    "districtId": "KA-DIST-83BAF6",
+    "districtName": "Dakshina",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-2FAD2F",
+    "name": "Kannadabelthangady",
+    "districtId": "KA-DIST-83BAF6",
+    "districtName": "Dakshina",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-43E0B9",
+    "name": "Kannadamangalore",
+    "districtId": "KA-DIST-83BAF6",
+    "districtName": "Dakshina",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8800A5",
+    "name": "Ankola",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6E62BB",
+    "name": "Bhatkal",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-18A31D",
+    "name": "Haliyal",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-8B384D",
+    "name": "Honnavar",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-830581",
+    "name": "Joida",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-358AD1",
+    "name": "Karwar",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-C2AD5B",
+    "name": "Kumta",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-334402",
+    "name": "Mundgoad",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-744EEE",
+    "name": "Siddapur",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4371A7",
+    "name": "Sirsi",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-0E4E80",
+    "name": "Yellapur",
+    "districtId": "KA-DIST-AB3160",
+    "districtName": "Uttarakannada",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-A08AAE",
+    "name": "Hagaribommanahalli",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EEB55F",
+    "name": "Harapanahalli",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-76973E",
+    "name": "Hospet",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-24308C",
+    "name": "Hovinahadagli",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-3CB5D2",
+    "name": "Kottur",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-097C94",
+    "name": "Kudligi",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-6AB6FB",
+    "name": "Vijayanagar",
+    "districtId": "KA-DIST-E01038",
+    "districtName": "Vijayanagar",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-D463C2",
+    "name": "B",
+    "districtId": "KA-DIST-F4B640",
+    "districtName": "Vijayapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EDBCE4",
+    "name": "Indi",
+    "districtId": "KA-DIST-F4B640",
+    "districtName": "Vijayapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-4689DE",
+    "name": "Muddebihal",
+    "districtId": "KA-DIST-F4B640",
+    "districtName": "Vijayapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-EDBDAC",
+    "name": "Sindagi",
+    "districtId": "KA-DIST-F4B640",
+    "districtName": "Vijayapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-7D55CF",
+    "name": "Vijayapur",
+    "districtId": "KA-DIST-F4B640",
+    "districtName": "Vijayapur",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-729C1F",
+    "name": "Shahapur",
+    "districtId": "KA-DIST-465D7F",
+    "districtName": "Yadgiri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-F061EB",
+    "name": "Shorapur",
+    "districtId": "KA-DIST-465D7F",
+    "districtName": "Yadgiri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-5A4DC0",
+    "name": "Yadgiri",
+    "districtId": "KA-DIST-465D7F",
+    "districtName": "Yadgiri",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-51C486",
+    "name": "Indi",
+    "districtId": "KA-DIST-933D3C",
+    "districtName": "Vijyapura",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-BC2753",
+    "name": "Vijayapaur",
+    "districtId": "KA-DIST-933D3C",
+    "districtName": "Vijyapura",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-E5375A",
+    "name": "Vijyapura",
+    "districtId": "KA-DIST-933D3C",
+    "districtName": "Vijyapura",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-AE40AD",
+    "name": "Agara",
+    "districtId": "KA-DIST-45C4FF",
+    "districtName": "Chamarajan",
+    "stateCode": "KA"
+  },
+  {
+    "id": "KA-TAL-CB326D",
+    "name": "Kalaburgi",
+    "districtId": "KA-DIST-217994",
+    "districtName": "Kalaburgi",
+    "stateCode": "KA"
+  }
+]

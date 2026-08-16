@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Aceclofenac Tablets IP 100 mg",
+    "description": "Exact product name match",
+    "expectedStatus": "EXACT_CATALOG_MATCH",
+    "expectedActiveIngredient": "Aceclofenac"
+  },
+  {
+    "query": "Dolo 650",
+    "description": "Brand query with verified mapping",
+    "expectedStatus": "STRONG_CATALOG_MATCH",
+    "expectedActiveIngredient": "Paracetamol"
+  },
+  {
+    "query": "Paracetamol 650 mg",
+    "description": "Generic search with specific strength",
+    "expectedStatus": "STRONG_CATALOG_MATCH",
+    "expectedActiveIngredient": "Paracetamol"
+  },
+  {
+    "query": "Paracetamol 500 mg",
+    "description": "Generic search with different strength",
+    "expectedStatus": "STRONG_CATALOG_MATCH",
+    "expectedActiveIngredient": "Paracetamol"
+  },
+  {
+    "query": "Aceclofenac Capsules",
+    "description": "Dosage form difference query",
+    "expectedStatus": "POSSIBLE_CATALOG_MATCH",
+    "expectedActiveIngredient": "Aceclofenac"
+  },
+  {
+    "query": "Paracetamal 650 mg",
+    "description": "Spelling variation query",
+    "expectedStatus": "STRONG_CATALOG_MATCH",
+    "expectedActiveIngredient": "Paracetamol"
+  },
+  {
+    "query": "SuperCureDrug 999",
+    "description": "No-match query",
+    "expectedStatus": "NO_VERIFIED_MATCH",
+    "expectedActiveIngredient": null
+  },
+  {
+    "query": "Can I take this medicine?",
+    "description": "Clinical safety question query",
+    "expectedStatus": "NO_VERIFIED_MATCH",
+    "isSafetyBlocked": true
+  },
+  {
+    "query": "I have fever, which medicine should I take?",
+    "description": "Clinical diagnosis advice query",
+    "expectedStatus": "NO_VERIFIED_MATCH",
+    "isSafetyBlocked": true
+  },
+  {
+    "query": "Can I replace my medicine with this Jan Aushadhi product?",
+    "description": "Clinical substitution advice query",
+    "expectedStatus": "NO_VERIFIED_MATCH",
+    "isSafetyBlocked": true
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "facilities": {
+    "id": {
+      "type": "String",
+      "required": true,
+      "meaning": "Stable deterministic hash-based key",
+      "normalization": "Prefix 'KA-FAC-' + MD5 of name, district, type"
+    },
+    "name": {
+      "type": "String",
+      "required": true,
+      "meaning": "Name of the hospital/PHC/CHC",
+      "normalization": "Standardize casing & punctuation"
+    },
+    "facilityType": {
+      "type": "String",
+      "required": true,
+      "meaning": "Controlled category vocabulary (PHC, CHC, DISTRICT_HOSPITAL, etc.)",
+      "normalization": "Lookup classification mapping"
+    },
+    "district": {
+      "type": "String",
+      "required": true,
+      "meaning": "Administrative district name",
+      "normalization": "Standardize spelling and strip suffixes"
+    },
+    "taluk": {
+      "type": "String",
+      "required": false,
+      "meaning": "Administrative sub-district",
+      "normalization": "Strip suffixes like 'TALUK'"
+    },
+    "pincode": {
+      "type": "String",
+      "required": false,
+      "meaning": "6-digit postal index code",
+      "normalization": "Strip spaces/symbols"
+    },
+    "latitude": {
+      "type": "Float",
+      "required": false,
+      "meaning": "WGS 84 GPS coordinate",
+      "normalization": "Checked against boundary box"
+    },
+    "longitude": {
+      "type": "Float",
+      "required": false,
+      "meaning": "WGS 84 GPS coordinate",
+      "normalization": "Checked against boundary box"
+    }
+  },
+  "janaushadhiProducts": {
+    "productId": {
+      "type": "String",
+      "required": true,
+      "meaning": "Stable padded code 'JAK-DRUG-XXXXXX'",
+      "normalization": "Zfill drug code to 6 chars"
+    },
+    "productName": {
+      "type": "String",
+      "required": true,
+      "meaning": "Generic name of medicine",
+      "normalization": "Clean spacing"
+    },
+    "mrp": {
+      "type": "Float",
+      "required": true,
+      "meaning": "Maximum Retail Price in INR",
+      "normalization": "Float conversion, must be positive"
+    },
+    "dosageForm": {
+      "type": "String",
+      "required": true,
+      "meaning": "Dosage type (Tablet, Capsule, Syrup, etc.)",
+      "normalization": "Regex extraction from generic name"
+    }
+  }
+}

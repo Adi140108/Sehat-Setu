@@ -13,11 +13,11 @@ export const RemindersManager: React.FC = () => {
     setReminders(getReminders('citizen-user'));
   }, []);
 
-  const handleCreate = (e: React.FormEvent) => {
+  const handleCreate = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim() || !date) return;
 
-    const newR = createReminder({
+    const newR = await createReminder({
       userId: 'citizen-user',
       type,
       title,

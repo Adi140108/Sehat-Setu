@@ -56,7 +56,7 @@ export interface Translations {
   selectLanguage: string;
 }
 
-export const translations: Record<LanguageCode, Translations> = {
+export const translations: Partial<Record<LanguageCode, Translations>> = {
   en: {
     appName: "SEHAT SETU",
     tagline: "Healthcare access should not depend on knowing where to look.",
