@@ -1,5 +1,5 @@
-import { 
-  signInAnonymously, 
+import {
+  signInAnonymously,
   signOut as firebaseSignOut,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,

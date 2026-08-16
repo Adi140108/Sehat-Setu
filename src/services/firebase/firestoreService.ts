@@ -1,24 +1,24 @@
-import { 
-  collection, 
-  doc, 
-  setDoc, 
-  getDoc, 
-  getDocs, 
-  query, 
-  where, 
-  deleteDoc, 
+import {
+  collection,
+  doc,
+  setDoc,
+  getDoc,
+  getDocs,
+  query,
+  where,
+  deleteDoc,
   updateDoc,
   serverTimestamp,
   writeBatch
 } from 'firebase/firestore';
 import { db, auth } from './firebase';
-import type { 
-  SupportRequest, 
-  Referral, 
-  Reminder, 
-  AnalyticsSummary, 
-  LanguageCode, 
-  IntentCategory, 
+import type {
+  SupportRequest,
+  Referral,
+  Reminder,
+  AnalyticsSummary,
+  LanguageCode,
+  IntentCategory,
   HouseholdMember,
   UserProfile,
   UserDocument,
@@ -115,13 +115,13 @@ export async function saveSehatPass(uid: string, passData: any): Promise<void> {
 
 export async function getHouseholdMembers(): Promise<HouseholdMember[]> {
   const user = auth.currentUser;
-  
+
   if (user && !user.isAnonymous) {
     try {
       // Try subcollection first users/{uid}/family
       const subSnapshot = await getDocs(collection(db, 'users', user.uid, 'family'));
       const members: HouseholdMember[] = [];
-      
+
       subSnapshot.forEach((docSnap) => {
         const data = docSnap.data();
         members.push({
@@ -175,7 +175,7 @@ export async function getHouseholdMembers(): Promise<HouseholdMember[]> {
   if (isLocalStorageAvailable()) {
     const data = localStorage.getItem(STORAGE_KEYS.HOUSEHOLD);
     if (data) {
-      try { return JSON.parse(data); } catch (e) {}
+      try { return JSON.parse(data); } catch (e) { }
     }
   }
   return [];
@@ -187,7 +187,7 @@ export async function saveHouseholdMembers(members: HouseholdMember[]): Promise<
   if (user && !user.isAnonymous) {
     try {
       const batch = writeBatch(db);
-      
+
       // 1. Clear legacy top-level collections
       const legacyQ = query(collection(db, 'families'), where('ownerUid', '==', user.uid));
       const legacySnapshot = await getDocs(legacyQ);
@@ -200,13 +200,13 @@ export async function saveHouseholdMembers(members: HouseholdMember[]): Promise<
       subSnapshot.forEach((docSnap) => {
         batch.delete(docSnap.ref);
       });
-      
+
       // 3. Write new members to both paths
       members.forEach((m) => {
         const docId = m.id || 'mem-' + Math.random().toString(36).substring(2, 9);
         const createdAt = m.createdAt || new Date().toISOString();
         const updatedAt = new Date().toISOString();
-        
+
         // Path A: Legacy families top-level
         const legacyRef = doc(db, 'families', docId);
         batch.set(legacyRef, {
@@ -238,7 +238,7 @@ export async function saveHouseholdMembers(members: HouseholdMember[]): Promise<
           updatedAt
         });
       });
-      
+
       await batch.commit();
     } catch (e) {
       console.error('Error writing family to Firestore:', e);
@@ -260,7 +260,7 @@ export async function createSupportRequest(
 ): Promise<SupportRequest> {
   const user = auth.currentUser;
   const requestId = 'req-' + Math.random().toString(36).substring(2, 9);
-  
+
   const newReq: SupportRequest = {
     ...req,
     id: requestId,
@@ -299,15 +299,15 @@ export function getSupportRequests(): SupportRequest[] {
   if (isLocalStorageAvailable()) {
     const data = localStorage.getItem(STORAGE_KEYS.SUPPORT_REQUESTS);
     if (data) {
-      try { return JSON.parse(data); } catch (e) {}
+      try { return JSON.parse(data); } catch (e) { }
     }
   }
   return [];
 }
 
 export async function updateSupportRequestStatus(
-  id: string, 
-  status: 'PENDING' | 'IN_PROGRESS' | 'RESOLVED', 
+  id: string,
+  status: 'PENDING' | 'IN_PROGRESS' | 'RESOLVED',
   volunteerName?: string
 ): Promise<void> {
   // Update Firestore
@@ -396,9 +396,9 @@ export async function createReminder(reminder: Omit<Reminder, 'id' | 'createdAt'
 // -------------------------------------------------------------
 
 export async function createReferral(
-  userId: string, 
-  facilityId: string, 
-  facilityName: string, 
+  userId: string,
+  facilityId: string,
+  facilityName: string,
   reason: string
 ): Promise<Referral> {
   const referralId = 'ref-' + Math.random().toString(36).substring(2, 8);
@@ -476,7 +476,7 @@ export async function updateReferralFollowUp(referralId: string, status: 'VISITE
 
 export async function deleteAllUserData(userId: string): Promise<void> {
   const user = auth.currentUser;
-  
+
   if (user && user.uid === userId && !user.isAnonymous) {
     try {
       // Delete user documents from Firestore collections
@@ -493,7 +493,7 @@ export async function deleteAllUserData(userId: string): Promise<void> {
         batch.delete(docSnap.ref);
       });
       await batch.commit();
-      
+
       // Delete Firebase Auth User Account
       await user.delete();
     } catch (e) {
@@ -605,7 +605,7 @@ export function incrementAnalytics(key: keyof AnalyticsSummary, intent?: IntentC
 
 export async function generatePassVerificationToken(uid: string, passData: any): Promise<string> {
   const tokenId = 'tok_' + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-  
+
   // Set 24 hour expiration duration
   const expiresAt = new Date();
   expiresAt.setHours(expiresAt.getHours() + 24);
@@ -645,9 +645,9 @@ export async function revokePassVerificationToken(tokenId: string): Promise<void
     const docRef = doc(db, 'sehatPassTokens', tokenId);
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
-      await setDoc(docRef, { 
-        status: 'REVOKED', 
-        revokedAt: new Date().toISOString() 
+      await setDoc(docRef, {
+        status: 'REVOKED',
+        revokedAt: new Date().toISOString()
       }, { merge: true });
     }
   } catch (e) {
@@ -663,7 +663,7 @@ export async function revokePassVerificationToken(tokenId: string): Promise<void
         parsed.status = 'REVOKED';
         parsed.revokedAt = new Date().toISOString();
         localStorage.setItem(`verify_token_${tokenId}`, JSON.stringify(parsed));
-      } catch (e) {}
+      } catch (e) { }
     }
   }
 }
@@ -682,7 +682,7 @@ export async function verifyPassToken(tokenId: string): Promise<SehatPassToken |
   if (isLocalStorageAvailable()) {
     const local = localStorage.getItem(`verify_token_${tokenId}`);
     if (local) {
-      try { return JSON.parse(local); } catch (e) {}
+      try { return JSON.parse(local); } catch (e) { }
     }
   }
 
@@ -715,7 +715,7 @@ export async function getUserDocuments(uid: string): Promise<UserDocument[]> {
   if (isLocalStorageAvailable()) {
     const local = localStorage.getItem(`docs_wallet_${uid}`);
     if (local) {
-      try { return JSON.parse(local); } catch (e) {}
+      try { return JSON.parse(local); } catch (e) { }
     }
   }
   return [];
