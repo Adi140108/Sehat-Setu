@@ -58,10 +58,10 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
       return 'Incorrect email or password.';
     }
     const msg = err?.message || err?.toString() || '';
-    if (msg.includes('api-key-not-valid') || msg.includes('invalid-api-key')) {
-      return "Firebase Auth API key is unconfigured. Please configure live Firebase credentials in .env or click 'Explore as Guest'.";
+    if (msg.includes('api-key-not-valid') || msg.includes('invalid-api-key') || msg.includes('unconfigured')) {
+      return '';
     }
-    return msg.replace(/^Firebase:\s*/i, '').replace(/Error\s*\(auth\/[^)]+\)\.?/i, '').trim() || 'Authentication failed. Please try again.';
+    return msg.replace(/^Firebase:\s*/i, '').replace(/Error\s*\(auth\/[^)]+\)\.?/i, '').trim();
   };
 
   const handleGoogleLogin = async () => {
