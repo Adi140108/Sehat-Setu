@@ -68,9 +68,22 @@ export async function getOrCreateUserProfile(user: FirebaseUser, role: UserRole 
 }
 
 export async function loginAnonymous(): Promise<UserProfile> {
-  const cred = await signInAnonymously(auth);
-  const profile = await getOrCreateUserProfile(cred.user, 'citizen');
-  return profile;
+  try {
+    const cred = await signInAnonymously(auth);
+    const profile = await getOrCreateUserProfile(cred.user, 'citizen');
+    return profile;
+  } catch (err) {
+    console.warn('Firebase Auth anonymous login unavailable, using guest session fallback:', err);
+    return {
+      uid: 'guest-local-anon',
+      role: 'citizen',
+      displayName: 'Guest Citizen',
+      preferredLanguage: 'kn',
+      onboardingCompleted: true,
+      createdAt: new Date().toISOString(),
+      lastActiveAt: new Date().toISOString()
+    } as UserProfile & { onboardingCompleted?: boolean };
+  }
 }
 
 export async function loginWithGoogle(): Promise<UserProfile> {

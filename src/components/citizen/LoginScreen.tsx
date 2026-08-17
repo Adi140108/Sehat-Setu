@@ -42,6 +42,20 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
     }
   }, [otpCooldown]);
 
+  const formatAuthError = (err: any): string => {
+    const msg = err?.message || err?.toString() || '';
+    if (msg.includes('api-key-not-valid') || msg.includes('invalid-api-key') || msg.includes('api-key')) {
+      return "Firebase Auth API key is unconfigured. Click 'Explore as Guest' below to explore the platform, or set a valid VITE_FIREBASE_API_KEY in .env.";
+    }
+    if (err?.code === 'auth/email-already-in-use') {
+      return 'This email is already registered. Please login instead.';
+    }
+    if (err?.code === 'auth/wrong-password' || err?.code === 'auth/user-not-found' || err?.code === 'auth/invalid-credential') {
+      return 'Incorrect email or password.';
+    }
+    return msg.replace(/^Firebase:\s*/i, '').replace(/Error\s*\(auth\/[^)]+\)\.?/i, '').trim() || 'Authentication failed. Please try again.';
+  };
+
   const handleGoogleLogin = async () => {
     setLoading(true);
     setError(null);
@@ -51,7 +65,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
       onLoginSuccess(profile);
     } catch (err: any) {
       console.error(err);
-      setError(err.message || 'Google login was cancelled or failed.');
+      setError(formatAuthError(err));
     } finally {
       setLoading(false);
     }
@@ -80,13 +94,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
       onLoginSuccess(profile);
     } catch (err: any) {
       console.error(err);
-      if (err.code === 'auth/email-already-in-use') {
-        setError('This email is already registered. Please login instead.');
-      } else if (err.code === 'auth/wrong-password' || err.code === 'auth/user-not-found') {
-        setError('Incorrect email or password.');
-      } else {
-        setError(err.message || 'Authentication failed. Please check credentials.');
-      }
+      setError(formatAuthError(err));
     } finally {
       setLoading(false);
     }
