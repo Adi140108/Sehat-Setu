@@ -245,9 +245,29 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
           fontWeight: 600,
           marginBottom: '20px',
           textAlign: 'left',
-          border: '1.5px solid rgba(220, 38, 38, 0.2)'
+          border: '1.5px solid rgba(220, 38, 38, 0.2)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: '12px'
         }}>
-          ⚠️ {error}
+          <span>⚠️ {error}</span>
+          <button 
+            onClick={() => setError(null)}
+            style={{
+              background: 'none',
+              border: 'none',
+              color: 'var(--emergency)',
+              cursor: 'pointer',
+              fontWeight: 800,
+              fontSize: '1.1rem',
+              lineHeight: 1,
+              padding: '2px 4px'
+            }}
+            title="Dismiss"
+          >
+            ×
+          </button>
         </div>
       )}
 
