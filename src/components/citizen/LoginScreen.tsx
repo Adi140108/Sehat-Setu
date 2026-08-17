@@ -45,15 +45,21 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
   }, [otpCooldown]);
 
   const formatAuthError = (err: any): string => {
-    const msg = err?.message || err?.toString() || '';
-    if (msg.includes('api-key-not-valid') || msg.includes('invalid-api-key') || msg.includes('api-key')) {
-      return "Firebase Auth API key is unconfigured. Click 'Explore as Guest' below to explore the platform, or set a valid VITE_FIREBASE_API_KEY in .env.";
+    if (err?.code === 'auth/popup-closed-by-user' || err?.code === 'auth/cancelled-popup-request') {
+      return 'Google sign-in popup was closed before completing.';
+    }
+    if (err?.code === 'auth/popup-blocked') {
+      return 'Sign-in popup was blocked by your browser. Please allow popups for this site.';
     }
     if (err?.code === 'auth/email-already-in-use') {
-      return 'This email is already registered. Please login instead.';
+      return 'This email is already registered. Please sign in instead.';
     }
     if (err?.code === 'auth/wrong-password' || err?.code === 'auth/user-not-found' || err?.code === 'auth/invalid-credential') {
       return 'Incorrect email or password.';
+    }
+    const msg = err?.message || err?.toString() || '';
+    if (msg.includes('api-key-not-valid') || msg.includes('invalid-api-key')) {
+      return "Firebase Auth API key is unconfigured. Please configure live Firebase credentials in .env or click 'Explore as Guest'.";
     }
     return msg.replace(/^Firebase:\s*/i, '').replace(/Error\s*\(auth\/[^)]+\)\.?/i, '').trim() || 'Authentication failed. Please try again.';
   };
