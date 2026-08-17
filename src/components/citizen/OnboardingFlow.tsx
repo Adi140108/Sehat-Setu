@@ -26,6 +26,7 @@ import {
   ArrowRight 
 } from 'lucide-react';
 import type { UserProfile, HouseholdMember, LanguageCode } from '../../types';
+import logoWithTagline from '../../assets/Logo.jpeg';
 
 interface OnboardingFlowProps {
   userProfile: UserProfile;
@@ -479,7 +480,7 @@ export const OnboardingFlow: React.FC<OnboardingFlowProps> = ({ userProfile, onO
       {step === 1 && (
         <div className="animate-fade-in-up" style={{ textAlign: 'center' }}>
           <img 
-            src="/Logo.jpeg" 
+            src={logoWithTagline} 
             alt="Sehat Setu" 
             style={{ maxWidth: '180px', margin: '0 auto 20px', borderRadius: 'var(--radius-sm)' }}
           />

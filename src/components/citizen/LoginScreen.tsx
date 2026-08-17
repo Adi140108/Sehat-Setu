@@ -10,6 +10,8 @@ import { logAuthAuditEvent } from '../../services/firebase/firestoreService';
 import { Shield, Mail, Smartphone, LogIn, HelpCircle, ArrowRight } from 'lucide-react';
 import type { UserProfile } from '../../types';
 
+import logoWithTagline from '../../assets/Logo.jpeg';
+
 interface LoginScreenProps {
   onLoginSuccess: (user: UserProfile) => void;
   onContinueAsGuest: () => void;
@@ -216,7 +218,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, onCont
       {/* Official Tagline Logo Header */}
       <div style={{ marginBottom: '32px' }}>
         <img 
-          src="/Logo.jpeg" 
+          src={logoWithTagline} 
           alt="Sehat Setu Logo with Tagline" 
           style={{
             maxWidth: '220px',

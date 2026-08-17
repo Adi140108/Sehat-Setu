@@ -4,6 +4,7 @@ import { useTheme } from '../../contexts/ThemeContext';
 import { useAuth } from '../../contexts/AuthContext';
 import type { LanguageCode } from '../../types';
 import { Globe, Eye, User, Shield, Home, LogOut, LogIn } from 'lucide-react';
+import onlyLogo from '../../assets/OnlyLogo.jpeg';
 
 interface HeaderProps {
   currentTab: 'citizen' | 'admin' | 'volunteer';
@@ -39,7 +40,7 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onTabChange, onOpenL
           >
             {/* Small Official Logo Icon */}
             <img 
-              src="/Only Logo.jpeg" 
+              src={onlyLogo} 
               alt="Sehat Setu Icon" 
               style={{
                 width: '42px',
